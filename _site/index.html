@@ -71,7 +71,7 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    const listingTargetEl = window.document.querySelector('#listing-main-listing .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
@@ -84,7 +84,7 @@ ul.task-list li input[type="checkbox"] {
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+    window['quarto-listings']['listing-main-listing'] = new List('listing-main-listing', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -199,12 +199,11 @@ window.Quarto = {
 
 
 
-<p>Welcome! Please see below for different blog posts, and browse categories for different themes. Enjoy! Whatuuup.</p>
-
-
-
-
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
+<p>Collective adaptation is the phenomenon where individuals in a population change or evolve in such a way that characteristics of the entire population change with the goal of increased <em>fitness</em>, which could mean increased survival, happiness, resources, or similar things that could be perceived as good. This definition is abstract by design, since collective action could occur in human, non-human animal, sipmle or single-cell organism, or virus populations. Changes are not always beneficial, however, such as if myopic increases in consumption in times of temporary surplus lead to overconsumption and long-term decline. Humans are unique in our ability to develop and evolve cultural adaptations that can facilitate adaptation much more rapidly than genetic evolution can. However, our capacity for culture, and the cognitive social learning capacities that enable culture, evolved genetically, including conversational turn-taking, joint attention, and predictive processing which can be used for social or asocial, trial-and-error learning.</p>
+<p>These blog posts explore what components, mechanisms and resulting processes underlie collective adaptation. These posts also explore how to advance the theory of collective adaptation through mechanistic modeling via agent-based or other approaches.</p>
+<section id="posts" class="level2">
+<h2 class="anchored" data-anchor-id="posts">Posts</h2>
+<div id="listing-main-listing" class="quarto-listing quarto-listing-container-default">
 <div class="list quarto-listing-default">
 <div class="quarto-post image-right" data-index="0" data-categories="news,code,analysis" data-listing-date-sort="1710140400000" data-listing-file-modified-sort="1710169909779" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="9">
 <div class="thumbnail">
@@ -245,7 +244,7 @@ Harlow Malloc
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="1" data-categories="news" data-listing-date-sort="1709884800000" data-listing-file-modified-sort="1710169909778" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="32">
+<div class="quarto-post image-right" data-index="1" data-categories="news" data-listing-date-sort="1709884800000" data-listing-file-modified-sort="1710264330077" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="32">
 <div class="thumbnail">
 <p><a href="./posts/welcome/index.html" class="no-external"></a></p><a href="./posts/welcome/index.html" class="no-external">
 <p class="card-img-top"><img src="posts/welcome/thumbnail.jpg"  class="thumbnail-image card-img"/></p>
@@ -282,7 +281,14 @@ Tristan O’Malley
 <div class="listing-no-matching d-none">
 No matching items
 </div>
-</div></main> <!-- /main -->
+</div>
+<p>Here’s other stuff.</p>
+
+
+
+</section>
+
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

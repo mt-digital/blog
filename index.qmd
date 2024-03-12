@@ -1,6 +1,8 @@
 ---
 title: "Blog"
+bibliography: /Users/mt/workspace/Writing/library.bib
 listing:
+  id: main-listing
   contents: posts
   sort: "date desc"
   type: default
@@ -11,4 +13,13 @@ page-layout: full
 title-block-banner: true
 ---
 
-Welcome! Please see below for different blog posts, and browse categories for different themes. Enjoy! Whatuuup.
+Collective adaptation is the phenomenon where individuals in a population change or evolve in such a way that characteristics of the entire population change with the goal of increased *fitness*, which could mean increased survival, happiness, resources, or similar things that could be perceived as good. This definition is abstract by design, since collective action could occur in human, non-human animal, sipmle or single-cell organism, or virus populations. Changes are not always beneficial, however, such as if myopic increases in consumption in times of temporary surplus lead to overconsumption and long-term decline. Humans are unique in our ability to develop and evolve cultural adaptations that can facilitate adaptation much more rapidly than genetic evolution can. However, our capacity for culture, and the cognitive social learning capacities that enable culture, evolved genetically, including conversational turn-taking, joint attention, and predictive processing which can be used for social or asocial, trial-and-error learning. 
+
+These blog posts explore what components, mechanisms and resulting processes underlie collective adaptation. These posts also explore how to advance the theory of collective adaptation through mechanistic modeling via agent-based or other approaches.
+
+## Posts
+
+:::{#main-listing}
+:::
+
+Here's other stuff.
