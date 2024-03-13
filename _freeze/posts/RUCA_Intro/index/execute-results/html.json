@@ -1,0 +1,15 @@
+{
+  "hash": "d50c71a462823129e7d1c1fcbe2527ca",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Intro to a rigorous understanding of collective adaptation\"\nauthor: \"Matthew Adam Turner\"\ndate: \"2024-03-13\"\ncategories: [news, review]\nimage: \"image.jpg\"\n---\n\n\nThis is a post with executable code.\n\n\n::: {.cell}\n\n```{.r .cell-code}\n1 + 1\n```\n\n::: {.cell-output .cell-output-stdout}\n\n```\n[1] 2\n```\n\n\n:::\n:::\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

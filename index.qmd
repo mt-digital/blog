@@ -1,25 +1,15 @@
 ---
-# title: "Matthew Adam Turner"
 image: profile.jpg
 about:
   template: solana
   image-shape: round
-  # links:
-  #   - icon: twitter
-  #     text: Twitter
-  #     href: https://twitter.com/MATurnerPhD
-  #   - icon: linkedin
-  #     text: LinkedIn
-  #     href: https://linkedin.com/in/maturner01
-  #   - icon: github
-  #     text: Github
-  #     href: https://github.com/mt-digital
 ---
 
 # Matthew Adam Turner, PhD
-### Computational social scientist
-## A rigorous understanding of collective adaptation {#labname}
+## Computational social scientist
 
-Hello and welcome! I am currently a Pandemic Preparedness Postdoctoral Scholar working in [James Holland Jones' Human Evolutionary Ecology and Health](https://heeh.stanford.edu/about/james-holland-jones) group in the Social Sciences Division of the Stanford Doerr School of Sustainability at Stanford University. 
+### Pursuing a rigorous understanding of collective adaptation {#labname}
 
-I received my PhD in Cognitive and Information Sciences from the University of California, Merced. I have an MS degree in Applied Physics from Rice University, and a dual BS degree in Mathematics and Physics from Syracuse University. I worked professionally in Moscow, Idaho, as a data engineer at an economic modeling firm and then as a lead research software developer at the University of Idaho working on a tristate (Idaho, Nevada, New Mexico) model- and data-intensive hydrology project.
+Hello and welcome! I am obsessed with contributing to the emerging science of understanding how populations of humans and non-humans alike collectively adapt to their environment through social influence and evolution. I develop mechanistic models of various processes that contribute to collective adaptation that are often implemented as agent-based models, but also evaluated formally and using generative modeling. On this site you can read my blog presenting research notes on developing a [rigorous understanding (RUCA) blog](blog.qmd) or find more information about my work by reviewing my recent papers listed below or in my [CV](static/turner_cv.pdf).
+
+I am currently a [Pandemic Preparedness Postdoctoral Scholar]() working in [James Holland Jones' Human Evolutionary Ecology and Health](https://heeh.stanford.edu/about/james-holland-jones) group in the Social Sciences Division of the Stanford Doerr School of Sustainability at Stanford University. I received my PhD in Cognitive and Information Sciences from the University of California, Merced. I have an MS degree in Applied Physics from Rice University, and a dual BS degree in Mathematics and Physics from Syracuse University. I worked professionally in Moscow, Idaho, as a data engineer at an economic modeling firm and then as a lead research software developer at the University of Idaho working on a multi-state  (Idaho, Nevada, New Mexico) collaborative model- and data-intensive hydrology project.

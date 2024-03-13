@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Matthew Adam Turner, PhD",
     "section": "",
-    "text": "Hello and welcome! I am currently a Pandemic Preparedness Postdoctoral Scholar working in James Holland Jones’ Human Evolutionary Ecology and Health group in the Social Sciences Division of the Stanford Doerr School of Sustainability at Stanford University.\nI received my PhD in Cognitive and Information Sciences from the University of California, Merced. I have an MS degree in Applied Physics from Rice University, and a dual BS degree in Mathematics and Physics from Syracuse University. I worked professionally in Moscow, Idaho, as a data engineer at an economic modeling firm and then as a lead research software developer at the University of Idaho working on a tristate (Idaho, Nevada, New Mexico) model- and data-intensive hydrology project."
+    "text": "Hello and welcome! I am obsessed with contributing to the emerging science of understanding how populations of humans and non-humans alike collectively adapt to their environment through social influence and evolution. I develop mechanistic models of various processes that contribute to collective adaptation that are often implemented as agent-based models, but also evaluated formally and using generative modeling. On this site you can read my blog presenting research notes on developing a rigorous understanding (RUCA) blog or find more information about my work by reviewing my recent papers listed below or in my CV.\nI am currently a Pandemic Preparedness Postdoctoral Scholar working in James Holland Jones’ Human Evolutionary Ecology and Health group in the Social Sciences Division of the Stanford Doerr School of Sustainability at Stanford University. I received my PhD in Cognitive and Information Sciences from the University of California, Merced. I have an MS degree in Applied Physics from Rice University, and a dual BS degree in Mathematics and Physics from Syracuse University. I worked professionally in Moscow, Idaho, as a data engineer at an economic modeling firm and then as a lead research software developer at the University of Idaho working on a multi-state (Idaho, Nevada, New Mexico) collaborative model- and data-intensive hydrology project."
   },
   {
     "objectID": "posts/welcome/index.html",
@@ -46,7 +46,7 @@
     "href": "blog.html#posts",
     "title": "Sketches for a Rigorous Understanding of Collective Adaptation",
     "section": "Posts",
-    "text": "Posts\n\n\n\n\n  \n\n\n\n\nPost With Code\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nMar 11, 2024\n\n\nHarlow Malloc\n\n\n\n\n\n\n  \n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nMar 8, 2024\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
+    "text": "Posts\n\n\n\n\n\n\n\n\n\n\nIntro to a rigorous understanding of collective adaptation\n\n\n\n\n\n\nnews\n\n\nreview\n\n\n\n\n\n\n\n\n\nMar 13, 2024\n\n\nMatthew Adam Turner\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html#labname",
@@ -54,5 +54,33 @@
     "title": "Matthew Adam Turner, PhD",
     "section": "",
     "text": "Hello and welcome! I am currently a Pandemic Preparedness Postdoctoral Scholar working in James Holland Jones’ Human Evolutionary Ecology and Health group in the Social Sciences Division of the Stanford Doerr School of Sustainability at Stanford University.\nI received my PhD in Cognitive and Information Sciences from the University of California, Merced. I have an MS degree in Applied Physics from Rice University, and a dual BS degree in Mathematics and Physics from Syracuse University. I worked professionally in Moscow, Idaho, as a data engineer at an economic modeling firm and then as a lead research software developer at the University of Idaho working on a tristate (Idaho, Nevada, New Mexico) model- and data-intensive hydrology project."
+  },
+  {
+    "objectID": "index.html#computational-social-scientist",
+    "href": "index.html#computational-social-scientist",
+    "title": "Matthew Adam Turner, PhD",
+    "section": "",
+    "text": "Hello and welcome! I am obsessed with contributing to the emerging science of understanding how populations of humans and non-humans alike collectively adapt to their environment through social influence and evolution. I develop mechanistic models of various processes that contribute to collective adaptation that are often implemented as agent-based models, but also evaluated formally and using generative modeling. On this site you can read my blog presenting research notes on developing a rigorous understanding (RUCA) blog or find more information about my work by reviewing my recent papers listed below or in my CV.\nI am currently a Pandemic Preparedness Postdoctoral Scholar working in James Holland Jones’ Human Evolutionary Ecology and Health group in the Social Sciences Division of the Stanford Doerr School of Sustainability at Stanford University. I received my PhD in Cognitive and Information Sciences from the University of California, Merced. I have an MS degree in Applied Physics from Rice University, and a dual BS degree in Mathematics and Physics from Syracuse University. I worked professionally in Moscow, Idaho, as a data engineer at an economic modeling firm and then as a lead research software developer at the University of Idaho working on a multi-state (Idaho, Nevada, New Mexico) collaborative model- and data-intensive hydrology project."
+  },
+  {
+    "objectID": "posts/RUCA_Intro/index.html",
+    "href": "posts/RUCA_Intro/index.html",
+    "title": "Intro to a rigorous understanding of collective adaptation",
+    "section": "",
+    "text": "What is a rigorous understanding of collective adaptation and why do we need it?"
+  },
+  {
+    "objectID": "posts/blog_archive/welcome/index.html",
+    "href": "posts/blog_archive/welcome/index.html",
+    "title": "Welcome To My Blog",
+    "section": "",
+    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+  },
+  {
+    "objectID": "posts/blog_archive/post-with-code/index.html",
+    "href": "posts/blog_archive/post-with-code/index.html",
+    "title": "Post With Code",
+    "section": "",
+    "text": "This is a post with executable code.\n\n1 + 1\n\n[1] 2"
   }
 ]

@@ -5,6 +5,8 @@ website:
   title: "MA Turner, PhD"
   navbar:
     left:
+      - text: "CV"
+        href: static/turner_cv.pdf
       - icon: github
         href: https://github.com/mt-digital
       - icon: twitter
