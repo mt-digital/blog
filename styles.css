@@ -2,6 +2,16 @@
 
 h1, h2, h3, h4, h5, h6, p { font-family: "Hoefler Text"}
 
+/*h1 {font-size: 15pt}*/
+h2 {font-size: 15pt}
+h3 {font-size: 13.5pt}
+
+#tagline {color: grey}
+
+#labname {color: grey}
+
+.navbar-brand {font-size: 15pt}
+
 /* a { font-family: "PT Sans" } */
 
 #footer, #copyright { 

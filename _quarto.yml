@@ -2,14 +2,20 @@ project:
   type: website
 
 website:
-  title: "Blog"
+  title: "MA Turner, PhD"
   navbar:
-    right:
-      - about.qmd
+    left:
       - icon: github
         href: https://github.com/mt-digital
       - icon: twitter
         href: https://twitter.com/MATurnerPhD
+      - icon: linkedin
+        text: LinkedIn
+        href: https://linkedin.com/in/maturner01
+    right:
+      - text: "RUCA Blog"
+        file: blog.qmd
+      
 format:
   html:
     theme: cosmo

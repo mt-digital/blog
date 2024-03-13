@@ -2,9 +2,9 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Sketches for a Rigorous Understanding of Collective Adaptation",
+    "title": "Matthew Adam Turner, PhD",
     "section": "",
-    "text": "Collective adaptation is the phenomenon where individuals in a population change or evolve in such a way that characteristics of the entire population change with the goal of increased fitness, which could mean increased survival, happiness, resources, or similar things that could be perceived as good (Galesic et al. 2023). This definition is abstract by design, since collective action could occur in human, non-human animal, simple or single-cell organism, or virus populations. Changes are not always beneficial, however, such as if myopic increases in consumption in times of temporary surplus lead to overconsumption and long-term decline. Humans are unique in our ability to develop and evolve cultural adaptations that can facilitate adaptation much more rapidly than genetic evolution can. However, our capacity for culture, and the cognitive social learning capacities that enable culture, evolved genetically, including conversational turn-taking, joint attention, and predictive processing which can be used for social or asocial, trial-and-error learning.\nThese blog posts explore what components, mechanisms and resulting processes underlie collective adaptation. These posts also explore how to advance the theory of collective adaptation through mechanistic modeling via agent-based or other approaches."
+    "text": "Hello and welcome! I am currently a Pandemic Preparedness Postdoctoral Scholar working in James Holland Jones’ Human Evolutionary Ecology and Health group in the Social Sciences Division of the Stanford Doerr School of Sustainability at Stanford University.\nI received my PhD in Cognitive and Information Sciences from the University of California, Merced. I have an MS degree in Applied Physics from Rice University, and a dual BS degree in Mathematics and Physics from Syracuse University. I worked professionally in Moscow, Idaho, as a data engineer at an economic modeling firm and then as a lead research software developer at the University of Idaho working on a tristate (Idaho, Nevada, New Mexico) model- and data-intensive hydrology project."
   },
   {
     "objectID": "posts/welcome/index.html",
@@ -33,5 +33,26 @@
     "title": "Sketches for a Rigorous Understanding of Collective Adaptation",
     "section": "Posts",
     "text": "Posts\n\n\n\n\n  \n\n\n\n\nPost With Code\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nMar 11, 2024\n\n\nHarlow Malloc\n\n\n\n\n\n\n  \n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nMar 8, 2024\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "Sketches for a Rigorous Understanding of Collective Adaptation",
+    "section": "",
+    "text": "Collective adaptation is the phenomenon where individuals in a population change or evolve in such a way that characteristics of the entire population change with the goal of increased fitness, which could mean increased survival, happiness, resources, or similar things that could be perceived as good (Galesic et al. 2023). This definition is abstract by design, since collective action could occur in human, non-human animal, simple or single-cell organism, or virus populations. Changes are not always beneficial, however, such as if myopic increases in consumption in times of temporary surplus lead to overconsumption and long-term decline. Humans are unique in our ability to develop and evolve cultural adaptations that can facilitate adaptation much more rapidly than genetic evolution can. However, our capacity for culture, and the cognitive social learning capacities that enable culture, evolved genetically, including conversational turn-taking, joint attention, and predictive processing which can be used for social or asocial, trial-and-error learning.\nThese blog posts explore what components, mechanisms and resulting processes underlie collective adaptation. These posts also explore how to advance the theory of collective adaptation through mechanistic modeling via agent-based or other approaches."
+  },
+  {
+    "objectID": "blog.html#posts",
+    "href": "blog.html#posts",
+    "title": "Sketches for a Rigorous Understanding of Collective Adaptation",
+    "section": "Posts",
+    "text": "Posts\n\n\n\n\n  \n\n\n\n\nPost With Code\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nMar 11, 2024\n\n\nHarlow Malloc\n\n\n\n\n\n\n  \n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nMar 8, 2024\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "index.html#labname",
+    "href": "index.html#labname",
+    "title": "Matthew Adam Turner, PhD",
+    "section": "",
+    "text": "Hello and welcome! I am currently a Pandemic Preparedness Postdoctoral Scholar working in James Holland Jones’ Human Evolutionary Ecology and Health group in the Social Sciences Division of the Stanford Doerr School of Sustainability at Stanford University.\nI received my PhD in Cognitive and Information Sciences from the University of California, Merced. I have an MS degree in Applied Physics from Rice University, and a dual BS degree in Mathematics and Physics from Syracuse University. I worked professionally in Moscow, Idaho, as a data engineer at an economic modeling firm and then as a lead research software developer at the University of Idaho working on a tristate (Idaho, Nevada, New Mexico) model- and data-intensive hydrology project."
   }
 ]
