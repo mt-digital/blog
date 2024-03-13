@@ -2,9 +2,9 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Blog",
+    "title": "Sketches for a Rigorous Understanding of Collective Adaptation",
     "section": "",
-    "text": "Collective adaptation is the phenomenon where individuals in a population change or evolve in such a way that characteristics of the entire population change with the goal of increased fitness, which could mean increased survival, happiness, resources, or similar things that could be perceived as good. This definition is abstract by design, since collective action could occur in human, non-human animal, sipmle or single-cell organism, or virus populations. Changes are not always beneficial, however, such as if myopic increases in consumption in times of temporary surplus lead to overconsumption and long-term decline. Humans are unique in our ability to develop and evolve cultural adaptations that can facilitate adaptation much more rapidly than genetic evolution can. However, our capacity for culture, and the cognitive social learning capacities that enable culture, evolved genetically, including conversational turn-taking, joint attention, and predictive processing which can be used for social or asocial, trial-and-error learning.\nThese blog posts explore what components, mechanisms and resulting processes underlie collective adaptation. These posts also explore how to advance the theory of collective adaptation through mechanistic modeling via agent-based or other approaches."
+    "text": "Collective adaptation is the phenomenon where individuals in a population change or evolve in such a way that characteristics of the entire population change with the goal of increased fitness, which could mean increased survival, happiness, resources, or similar things that could be perceived as good (Galesic et al. 2023). This definition is abstract by design, since collective action could occur in human, non-human animal, simple or single-cell organism, or virus populations. Changes are not always beneficial, however, such as if myopic increases in consumption in times of temporary surplus lead to overconsumption and long-term decline. Humans are unique in our ability to develop and evolve cultural adaptations that can facilitate adaptation much more rapidly than genetic evolution can. However, our capacity for culture, and the cognitive social learning capacities that enable culture, evolved genetically, including conversational turn-taking, joint attention, and predictive processing which can be used for social or asocial, trial-and-error learning.\nThese blog posts explore what components, mechanisms and resulting processes underlie collective adaptation. These posts also explore how to advance the theory of collective adaptation through mechanistic modeling via agent-based or other approaches."
   },
   {
     "objectID": "posts/welcome/index.html",
@@ -30,8 +30,8 @@
   {
     "objectID": "index.html#posts",
     "href": "index.html#posts",
-    "title": "Blog",
+    "title": "Sketches for a Rigorous Understanding of Collective Adaptation",
     "section": "Posts",
-    "text": "Posts\n\n\n\n\n\n\n\n\n\n\nPost With Code\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\nMar 11, 2024\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nMar 8, 2024\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items\n\n\nHere’s other stuff."
+    "text": "Posts\n\n\n\n\n  \n\n\n\n\nPost With Code\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nMar 11, 2024\n\n\nHarlow Malloc\n\n\n\n\n\n\n  \n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nMar 8, 2024\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
   }
 ]
