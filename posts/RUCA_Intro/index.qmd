@@ -1,9 +1,0 @@
----
-title: "Intro to a rigorous understanding of collective adaptation"
-author: "Matthew Adam Turner"
-date: "2024-03-13"
-categories: [news, review]
-image: "image.jpg"
----
-
-# What is a rigorous understanding of collective adaptation and why do we need it?

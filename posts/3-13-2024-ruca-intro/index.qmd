@@ -1,0 +1,16 @@
+---
+title: "Intro to a rigorous understanding of collective adaptation"
+author: "Matthew Adam Turner"
+date: "2024-03-13"
+categories: [news, review]
+image: "image.jpg"
+---
+
+# What is a rigorous understanding of collective adaptation and why do we need it?
+
+Our current epoch is characterized by threats of climate change, ecosystem loss, pandemics, and malicious use of artificial intelligence and associated technologies. In response, we humans are challenged to collectively develop adaptations that mitigate or prevent greater catastrophe [@PisorLansingMagargal2023,@Currie2024]. Collective adaptation is an emergent phenomena composed of constituent sub-processes occurring across several time, population, and geographic/spatial scales: from milliseconds to millenia; from an individual to dyads to the global metapopulation; and from micrometers-long neurons to global-scale communication networks [@GalesicEtAl2023].  
+
+
+# A rigorous understanding of collective adaptation via mechanistic modeling
+
+Mechanistic models are useful for emergent phenomena such as collective adaptation because they force experimenters to explicitly state what parts of their system of interest. A study of the development of useful mechanistic models reveals that models must be properly shielded in a way that makes empirical sense.

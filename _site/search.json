@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Matthew Adam Turner, PhD",
     "section": "",
-    "text": "Hello and welcome! I am obsessed with contributing to the emerging science of understanding how populations of humans and non-humans alike collectively adapt to their environment through social influence and evolution. I develop mechanistic models of various processes that contribute to collective adaptation that are often implemented as agent-based models, but also evaluated formally and using generative modeling. On this site you can read my blog presenting research notes on developing a rigorous understanding (RUCA) blog or find more information about my work by reviewing my recent papers listed below or in my CV.\nI am currently a Pandemic Preparedness Postdoctoral Scholar working in James Holland Jones’ Human Evolutionary Ecology and Health group in the Social Sciences Division of the Stanford Doerr School of Sustainability at Stanford University. I received my PhD in Cognitive and Information Sciences from the University of California, Merced. I have an MS degree in Applied Physics from Rice University, and a dual BS degree in Mathematics and Physics from Syracuse University. I worked professionally in Moscow, Idaho, as a data engineer at an economic modeling firm and then as a lead research software developer at the University of Idaho working on a multi-state (Idaho, Nevada, New Mexico) collaborative model- and data-intensive hydrology project."
+    "text": "I work to contribute to the emerging science of understanding how populations of individuals collectively adapt to their social and physical environment through exploratory learning, social influence, and evolution. Wise collective adaptation is essential for mitigating risk of disaster caused by climate change, global pandemics, or other threats. I develop mechanistic models of how collective adaptation in society emerges from individual- and group-level behavior. Mechanistic models can be used to computationally test the logic of potential hypotheses about how collective adaptation emerges, or to explain emergent collective adaptation in empirical data. What we learn from this can be combined to form a rigorous understanding of collective adaptation. This rigorous understanding can be used to design wiser collective action. To learn more, please see some of my primary works below.My blog collects research notes and tutorials on how I contribute to (the RUCA Blog). My CV contains more about me.\n\n\n\nTurner, M. A., Singleton, A. L., Harris, M. J., Harryman, I., Lopez, C. A., Arthur, R. F., Muraida, C., & Jones, J. H. (2023). Minority-group incubators and majority-group reservoirs support the diffusion of climate change adaptations. Philosophical Transactions of the Royal Society B: Biological Sciences. https://doi.org/10.1098/rstb.2022.0401\n\n\n\nI am currently a Pandemic Preparedness Postdoctoral Scholar working in James Holland Jones’ Human Evolutionary Ecology and Health group in the Social Sciences Division of the Stanford Doerr School of Sustainability at Stanford University. Before I received my PhD in Cognitive and Information Sciences from the University of California, Merced, I received an MS in Applied Physics from Rice University and worked professionally as a data engineer and lead research software developer."
   },
   {
     "objectID": "posts/welcome/index.html",
@@ -37,16 +37,16 @@
   {
     "objectID": "blog.html",
     "href": "blog.html",
-    "title": "Sketches for a Rigorous Understanding of Collective Adaptation",
+    "title": "The RUCA Blog",
     "section": "",
     "text": "Collective adaptation is the phenomenon where individuals in a population change or evolve in such a way that characteristics of the entire population change with the goal of increased fitness, which could mean increased survival, happiness, resources, or similar things that could be perceived as good (Galesic et al. 2023). This definition is abstract by design, since collective action could occur in human, non-human animal, simple or single-cell organism, or virus populations. Changes are not always beneficial, however, such as if myopic increases in consumption in times of temporary surplus lead to overconsumption and long-term decline. Humans are unique in our ability to develop and evolve cultural adaptations that can facilitate adaptation much more rapidly than genetic evolution can. However, our capacity for culture, and the cognitive social learning capacities that enable culture, evolved genetically, including conversational turn-taking, joint attention, and predictive processing which can be used for social or asocial, trial-and-error learning.\nThese blog posts explore what components, mechanisms and resulting processes underlie collective adaptation. These posts also explore how to advance the theory of collective adaptation through mechanistic modeling via agent-based or other approaches."
   },
   {
     "objectID": "blog.html#posts",
     "href": "blog.html#posts",
-    "title": "Sketches for a Rigorous Understanding of Collective Adaptation",
+    "title": "The RUCA Blog",
     "section": "Posts",
-    "text": "Posts\n\n\n\n\n\n\n\n\n\n\nIntro to a rigorous understanding of collective adaptation\n\n\n\n\n\n\nnews\n\n\nreview\n\n\n\n\n\n\n\n\n\nMar 13, 2024\n\n\nMatthew Adam Turner\n\n\n\n\n\n\nNo matching items"
+    "text": "Posts\n\n\n\n\n  \n\n\n\n\nIntro to a rigorous understanding of collective adaptation\n\n\n\n\n\n\n\nnews\n\n\nreview\n\n\n\n\n\n\n\n\n\n\n\nMar 13, 2024\n\n\nMatthew Adam Turner\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html#labname",
@@ -60,7 +60,7 @@
     "href": "index.html#computational-social-scientist",
     "title": "Matthew Adam Turner, PhD",
     "section": "",
-    "text": "Hello and welcome! I am obsessed with contributing to the emerging science of understanding how populations of humans and non-humans alike collectively adapt to their environment through social influence and evolution. I develop mechanistic models of various processes that contribute to collective adaptation that are often implemented as agent-based models, but also evaluated formally and using generative modeling. On this site you can read my blog presenting research notes on developing a rigorous understanding (RUCA) blog or find more information about my work by reviewing my recent papers listed below or in my CV.\nI am currently a Pandemic Preparedness Postdoctoral Scholar working in James Holland Jones’ Human Evolutionary Ecology and Health group in the Social Sciences Division of the Stanford Doerr School of Sustainability at Stanford University. I received my PhD in Cognitive and Information Sciences from the University of California, Merced. I have an MS degree in Applied Physics from Rice University, and a dual BS degree in Mathematics and Physics from Syracuse University. I worked professionally in Moscow, Idaho, as a data engineer at an economic modeling firm and then as a lead research software developer at the University of Idaho working on a multi-state (Idaho, Nevada, New Mexico) collaborative model- and data-intensive hydrology project."
+    "text": "I work to contribute to the emerging science of understanding how populations of individuals collectively adapt to their social and physical environment through exploratory learning, social influence, and evolution. Wise collective adaptation is essential for mitigating risk of disaster caused by climate change, global pandemics, or other threats. I develop mechanistic models of how collective adaptation in society emerges from individual- and group-level behavior. Mechanistic models can be used to computationally test the logic of potential hypotheses about how collective adaptation emerges, or to explain emergent collective adaptation in empirical data. What we learn from this can be combined to form a rigorous understanding of collective adaptation. This rigorous understanding can be used to design wiser collective action. To learn more, please see some of my primary works below.My blog collects research notes and tutorials on how I contribute to (the RUCA Blog). My CV contains more about me.\n\n\n\nTurner, M. A., Singleton, A. L., Harris, M. J., Harryman, I., Lopez, C. A., Arthur, R. F., Muraida, C., & Jones, J. H. (2023). Minority-group incubators and majority-group reservoirs support the diffusion of climate change adaptations. Philosophical Transactions of the Royal Society B: Biological Sciences. https://doi.org/10.1098/rstb.2022.0401\n\n\n\nI am currently a Pandemic Preparedness Postdoctoral Scholar working in James Holland Jones’ Human Evolutionary Ecology and Health group in the Social Sciences Division of the Stanford Doerr School of Sustainability at Stanford University. Before I received my PhD in Cognitive and Information Sciences from the University of California, Merced, I received an MS in Applied Physics from Rice University and worked professionally as a data engineer and lead research software developer."
   },
   {
     "objectID": "posts/RUCA_Intro/index.html",
@@ -79,6 +79,27 @@
   {
     "objectID": "posts/blog_archive/post-with-code/index.html",
     "href": "posts/blog_archive/post-with-code/index.html",
+    "title": "Post With Code",
+    "section": "",
+    "text": "This is a post with executable code.\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "posts/3-13-2024-ruca-intro/index.html",
+    "href": "posts/3-13-2024-ruca-intro/index.html",
+    "title": "Intro to a rigorous understanding of collective adaptation",
+    "section": "",
+    "text": "What is a rigorous understanding of collective adaptation and why do we need it?\nOur current epoch is characterized by threats of climate change, ecosystem loss, pandemics, and malicious use of artificial intelligence and associated technologies. In response, we humans are challenged to collectively develop adaptations that mitigate or prevent greater catastrophe [@PisorLansingMagargal2023,@Currie2024]. Collective adaptation is an emergent phenomena composed of constituent sub-processes occurring across several time, population, and geographic/spatial scales: from milliseconds to millenia; from an individual to dyads to the global metapopulation; and from micrometers-long neurons to global-scale communication networks [@GalesicEtAl2023].\n\n\nA rigorous understanding of collective adaptation via mechanistic modeling\nMechanistic models are useful for emergent phenomena such as collective adaptation because they force experimenters to explicitly state what parts of their system of interest. A study of the development of useful mechanistic models reveals that models must be properly shielded in a way that makes empirical sense."
+  },
+  {
+    "objectID": "PostsArchive/welcome/index.html",
+    "href": "PostsArchive/welcome/index.html",
+    "title": "Welcome To My Blog",
+    "section": "",
+    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+  },
+  {
+    "objectID": "PostsArchive/post-with-code/index.html",
+    "href": "PostsArchive/post-with-code/index.html",
     "title": "Post With Code",
     "section": "",
     "text": "This is a post with executable code.\n\n1 + 1\n\n[1] 2"

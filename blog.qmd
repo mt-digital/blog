@@ -1,5 +1,6 @@
 ---
-title: "Sketches for a Rigorous Understanding of Collective Adaptation"
+title: "The RUCA Blog"
+subtitle: "Sketches for a Rigorous Understanding of Collective Adaptation"
 bibliography: /Users/mt/workspace/Writing/library.bib
 listing:
   id: main-listing

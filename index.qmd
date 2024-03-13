@@ -3,13 +3,21 @@ image: profile.jpg
 about:
   template: solana
   image-shape: round
+bibliography: /Users/mt/workspace/Writing/library.bib
 ---
 
 # Matthew Adam Turner, PhD
+
 ## Computational social scientist
 
 ### Pursuing a rigorous understanding of collective adaptation {#labname}
 
-Hello and welcome! I am obsessed with contributing to the emerging science of understanding how populations of humans and non-humans alike collectively adapt to their environment through social influence and evolution. I develop mechanistic models of various processes that contribute to collective adaptation that are often implemented as agent-based models, but also evaluated formally and using generative modeling. On this site you can read my blog presenting research notes on developing a [rigorous understanding (RUCA) blog](blog.qmd) or find more information about my work by reviewing my recent papers listed below or in my [CV](static/turner_cv.pdf).
+I work to contribute to the emerging science of understanding how populations of individuals collectively adapt to their social and physical environment through exploratory learning, social influence, and evolution. Wise collective adaptation is essential for mitigating risk of disaster caused by climate change, global pandemics, or other threats. I develop mechanistic models of how collective adaptation in society emerges from individual- and group-level behavior. Mechanistic models can be used to computationally test the logic of potential hypotheses about how collective adaptation emerges, or to explain emergent collective adaptation in empirical data. What we learn from this can be combined to form a **r**igorous **u**nderstanding of **c**ollective **a**daptation. This rigorous understanding can be used to design wiser collective action. To learn more, please see some of my primary works below.My blog collects research notes and tutorials on how I contribute to ([the RUCA Blog](blog.qmd)). My [CV](static/turner_cv.pdf) contains more about me.
 
-I am currently a [Pandemic Preparedness Postdoctoral Scholar]() working in [James Holland Jones' Human Evolutionary Ecology and Health](https://heeh.stanford.edu/about/james-holland-jones) group in the Social Sciences Division of the Stanford Doerr School of Sustainability at Stanford University. I received my PhD in Cognitive and Information Sciences from the University of California, Merced. I have an MS degree in Applied Physics from Rice University, and a dual BS degree in Mathematics and Physics from Syracuse University. I worked professionally in Moscow, Idaho, as a data engineer at an economic modeling firm and then as a lead research software developer at the University of Idaho working on a multi-state  (Idaho, Nevada, New Mexico) collaborative model- and data-intensive hydrology project.
+### RUCA research program in terms of primary works
+
+Turner, M. A., Singleton, A. L., Harris, M. J., Harryman, I., Lopez, C. A., Arthur, R. F., Muraida, C., & Jones, J. H. (2023). Minority-group incubators and majority-group reservoirs support the diffusion of climate change adaptations. *Philosophical Transactions of the Royal Society B: Biological Sciences*. <https://doi.org/10.1098/rstb.2022.0401>
+
+### Current role
+
+I am currently a [Pandemic Preparedness Postdoctoral Scholar](https://pandemichub.stanford.edu/fellows/) working in [James Holland Jones' Human Evolutionary Ecology and Health](https://heeh.stanford.edu/about/james-holland-jones) group in the Social Sciences Division of the Stanford Doerr School of Sustainability at Stanford University. Before I received my PhD in Cognitive and Information Sciences from the University of California, Merced, I received an MS in Applied Physics from Rice University and worked professionally as a data engineer and lead research software developer.
