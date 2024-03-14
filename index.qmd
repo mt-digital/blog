@@ -6,18 +6,33 @@ about:
 bibliography: /Users/mt/workspace/Writing/library.bib
 ---
 
-# Matthew Adam Turner, PhD
+# Matthew Adam Turner, PhD {#name}
 
-## Computational social scientist
-
-### Pursuing a rigorous understanding of collective adaptation {#labname}
-
-I work to contribute to the emerging science of understanding how populations of individuals collectively adapt to their social and physical environment through exploratory learning, social influence, and evolution. Wise collective adaptation is essential for mitigating risk of disaster caused by climate change, global pandemics, or other threats. I develop mechanistic models of how collective adaptation in society emerges from individual- and group-level behavior. Mechanistic models can be used to computationally test the logic of potential hypotheses about how collective adaptation emerges, or to explain emergent collective adaptation in empirical data. What we learn from this can be combined to form a **r**igorous **u**nderstanding of **c**ollective **a**daptation. This rigorous understanding can be used to design wiser collective action. To learn more, please see some of my primary works below.My blog collects research notes and tutorials on how I contribute to ([the RUCA Blog](blog.qmd)). My [CV](static/turner_cv.pdf) contains more about me.
-
-### RUCA research program in terms of primary works
-
-Turner, M. A., Singleton, A. L., Harris, M. J., Harryman, I., Lopez, C. A., Arthur, R. F., Muraida, C., & Jones, J. H. (2023). Minority-group incubators and majority-group reservoirs support the diffusion of climate change adaptations. *Philosophical Transactions of the Royal Society B: Biological Sciences*. <https://doi.org/10.1098/rstb.2022.0401>
+## Theoretical and computational social scientist {#title}
 
 ### Current role
 
-I am currently a [Pandemic Preparedness Postdoctoral Scholar](https://pandemichub.stanford.edu/fellows/) working in [James Holland Jones' Human Evolutionary Ecology and Health](https://heeh.stanford.edu/about/james-holland-jones) group in the Social Sciences Division of the Stanford Doerr School of Sustainability at Stanford University. Before I received my PhD in Cognitive and Information Sciences from the University of California, Merced, I received an MS in Applied Physics from Rice University and worked professionally as a data engineer and lead research software developer.
+I am currently a [Pandemic Preparedness Postdoctoral Scholar](https://pandemichub.stanford.edu/fellows/) working in [James Holland Jones' Human Evolutionary Ecology and Health](https://heeh.stanford.edu/about/james-holland-jones) group in the Social Sciences Division of the Stanford Doerr School of Sustainability at Stanford University. 
+
+### Pursuing a rigorous understanding of collective adaptation
+
+My work contributes to understanding how populations of individuals collectively adapt to their social and physical environment through exploratory learning, social influence, and evolution. Wise collective adaptation is essential for mitigating risk of disasters caused by climate change, global pandemics, or other threats. I develop mechanistic models of how collective adaptation emerges from ongoing social interactions, and how social networks, environmental variability, and other contextual factors affect the nature and success of collective adaptation. Mechanistic models allow us to computationally test the logic of potential hypotheses about how collective adaptation emerges, or to explain emergent collective adaptation in empirical data. What we learn from this contributes to ongoing efforts to develop a **r**igorous **u**nderstanding of **c**ollective **a**daptation. This rigorous understanding can be used to design wiser collective action. My blog collects research notes and tutorials on how I contribute to the collective effort to rigorously understand collective adaptation [[link: The RUCA Blog](blog.qmd)]. Please also see some select works below that outline my contributions to a rigorous understanding of collective adaptation or my [CV](static/turner_cv.pdf) to learn more.
+
+
+### Select works
+
+::: {#primary-works-list}
+Turner, M. A., Singleton, A. L., et al. (2023). Minority-group incubators and majority-group reservoirs support the diffusion of climate change adaptations. *Philosophical Transactions of the Royal Society B: Biological Sciences*. \[[link](#0){.uri}\]
+
+Turner, M. A., Moya, C., Smaldino, P. E., & Jones, J. H. (2023). The form of uncertainty affects selection for social learning. *Evolutionary Human Sciences*, *5*. \[[link](https://doi.org/10.1017/ehs.2023.11)\]
+
+Turner, M. A., & Smaldino, P. E. (2022). Mechanistic Modeling for the Masses - commentary on Yarkoni, “The generalizability crisis.” *Behavioral and Brain Sciences*, *45*(E33). \[[link](https://doi.org/10.1017/S0140525X2100039X)\]
+
+Turner, M. A., & Smaldino, P. E. (2020). Stubborn extremism as a potential pathway to group polarization. *Proceedings of the 42nd Annual Conference of the Cognitive Science Society*. \[[link](https://cognitivesciencesociety.org/cogsci20/papers/0153/index.html)\]
+
+Turner, M. A., & Smaldino, P. E. (2018). Paths to Polarization: How Extreme Views, Miscommunication, and Random Chance Drive Opinion Dynamics. *Complexity*. \[[link](https://doi.org/10.1155/2018/2740959)\]
+:::
+
+### Previous experience
+
+Before I received my PhD in Cognitive and Information Sciences from the University of California, Merced, I received an MS in Applied Physics from Rice University and worked professionally as a data engineer and lead research software developer in Moscow, Idaho.

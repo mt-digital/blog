@@ -2,10 +2,17 @@
 
 h1, h2, h3, h4, h5, h6, p { font-family: "Hoefler Text"}
 
-/*h1 {font-size: 15pt}*/
+/* h1 {margin: 0; padding: 0; line-height: 0px} */
 h2 {font-size: 15pt}
-h3 {font-size: 13.5pt}
+h3 {font-size: 14pt}
+h4 {font-size: 13.5pt}
 p {color: black}
+
+#name {margin-bottom: -5em; margin-top: 0;}
+
+/* #title h2 { margin: 0; padding: 0; color: grey} */
+#title h2 { margin-top: 20px; margin-left: 5px; color: grey}
+/* #title h2 { color: grey} */
 
 #tagline {color: grey}
 
@@ -21,4 +28,10 @@ p {color: black}
 
 #footer {
     text-align: right
+}
+
+#primary-works-list p { 
+  text-indent: 5em hanging;
+  text-align: left;
+  font-size: 11.5pt;
 }
