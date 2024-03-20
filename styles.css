@@ -31,7 +31,11 @@ p {color: black}
 }
 
 #primary-works-list p { 
-  text-indent: 5em hanging;
   text-align: left;
   font-size: 11.5pt;
+  
+  /* Following two lines are for references with a hanging indent.
+     See https://www.thesitewizard.com/css/hanging-indents.shtml. */
+  padding-left: 22px ;
+  text-indent: -22px ;
 }
