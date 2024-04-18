@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.450">
+<meta name="generator" content="quarto-1.4.551">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -24,6 +24,7 @@ ul.task-list li input[type="checkbox"] {
 div.csl-bib-body { }
 div.csl-entry {
   clear: both;
+  margin-bottom: 0em;
 }
 .hanging-indent div.csl-entry {
   margin-left:2em;
@@ -66,7 +67,13 @@ div.csl-indent {
   "collapse-after": 3,
   "panel-placement": "end",
   "type": "overlay",
-  "limit": 20,
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -75,6 +82,7 @@ div.csl-indent {
     "search-more-match-text": "more match in this document",
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
     "search-detached-cancel-button-title": "Cancel",
     "search-submit-button-title": "Submit",
     "search-label": "Search"
@@ -113,16 +121,43 @@ div.csl-indent {
   <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
 <link rel="stylesheet" href="styles.css">
 </head>
 
 <body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg navbar-dark ">
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container">
+      <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">MA Turner, PhD</span>
     </a>
@@ -134,34 +169,34 @@ div.csl-indent {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./static/turner_cv.pdf" rel="" target="">
- <span class="menu-text">CV</span></a>
+    <a class="nav-link" href="./static/turner_cv.pdf"> 
+<span class="menu-text">CV</span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/mt-digital" rel="" target=""><i class="bi bi-github" role="img">
+    <a class="nav-link" href="https://github.com/mt-digital"> <i class="bi bi-github" role="img">
 </i> 
- <span class="menu-text"></span></a>
+<span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://twitter.com/MATurnerPhD" rel="" target=""><i class="bi bi-twitter" role="img">
+    <a class="nav-link" href="https://twitter.com/MATurnerPhD"> <i class="bi bi-twitter" role="img">
 </i> 
- <span class="menu-text"></span></a>
+<span class="menu-text"></span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="https://linkedin.com/in/maturner01" rel="" target=""><i class="bi bi-linkedin" role="img">
+    <a class="nav-link" href="https://linkedin.com/in/maturner01"> <i class="bi bi-linkedin" role="img">
 </i> 
- <span class="menu-text">LinkedIn</span></a>
+<span class="menu-text">LinkedIn</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./blog.html" rel="" target="" aria-current="page">
- <span class="menu-text">RUCA Blog</span></a>
+    <a class="nav-link active" href="./blog.html" aria-current="page"> 
+<span class="menu-text">RUCA Blog</span></a>
   </li>  
 </ul>
-            <div class="quarto-navbar-tools">
-</div>
           </div> <!-- /navcollapse -->
+          <div class="quarto-navbar-tools">
+</div>
       </div> <!-- /container-fluid -->
     </nav>
 </header>
@@ -175,7 +210,7 @@ div.csl-indent {
   </div>
     
   
-  <div class="quarto-title-meta">
+  <div class="quarto-title-meta column-page-left">
 
       
     
@@ -195,25 +230,26 @@ div.csl-indent {
 
 
 
+
 <p>Collective adaptation is the phenomenon where individuals in a population change or evolve in such a way that characteristics of the entire population change with the goal of increased <em>fitness</em>, which could mean increased survival, happiness, resources, or similar things that could be perceived as good <span class="citation" data-cites="GalesicEtAl2023">(<a href="#ref-GalesicEtAl2023" role="doc-biblioref">Galesic et al. 2023</a>)</span>. This definition is abstract by design, since collective action could occur in human, non-human animal, simple or single-cell organism, or virus populations. Changes are not always beneficial, however, such as if myopic increases in consumption in times of temporary surplus lead to overconsumption and long-term decline. Humans are unique in our ability to develop and evolve cultural adaptations that can facilitate adaptation much more rapidly than genetic evolution can. However, our capacity for culture, and the cognitive social learning capacities that enable culture, evolved genetically, including conversational turn-taking, joint attention, and predictive processing which can be used for social or asocial, trial-and-error learning. Humans are not the only ones adapting, as animals adapt their behavior to human collective behavior <span class="citation" data-cites="Sullivan2017">(<a href="#ref-Sullivan2017" role="doc-biblioref">Sullivan, Bird, and Perry 2017</a>)</span> and pathogen spread and evolution responds to social networks <span class="citation" data-cites="Best2011">(<a href="#ref-Best2011" role="doc-biblioref">Best et al. 2011</a>)</span> and social behavior <span class="citation" data-cites="Arthur2017 Arthur2021">(<a href="#ref-Arthur2017" role="doc-biblioref">Arthur et al. 2017</a>, <a href="#ref-Arthur2021" role="doc-biblioref">2021</a>)</span>.</p>
 <p>These blog posts explore what components, mechanisms and resulting processes underlie collective adaptation. These posts also explore how to advance the theory of collective adaptation through mechanistic modeling via agent-based or other approaches.</p>
 <section id="posts" class="level2">
 <h2 class="anchored" data-anchor-id="posts">Posts</h2>
 <div id="listing-main-listing" class="quarto-listing quarto-listing-container-default">
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="opinion,philosophy" data-listing-date-sort="1710745200000" data-listing-file-modified-sort="1710792864933" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5">
+<div class="quarto-post image-right" data-index="0" data-categories="opinion,philosophy" data-listing-date-sort="1710745200000" data-listing-file-modified-sort="1710961049708" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="933">
 <div class="thumbnail">
-<p><a href="./posts/3-18-2024-theoretical-social-science-is-not-social-theory/index.html"> <img src="./posts/3-18-2024-theoretical-social-science-is-not-social-theory/feynman-not-foucault.jpg" class="thumbnail-image"> </a></p>
+<p><a href="./posts/3-18-2024-theoretical-social-science-is-not-social-theory/index.html" class="no-external"></a></p><a href="./posts/3-18-2024-theoretical-social-science-is-not-social-theory/index.html" class="no-external">
+<p><img src="./posts/3-18-2024-theoretical-social-science-is-not-social-theory/feynman-not-foucault.jpg" class="thumbnail-image"></p>
+</a><p><a href="./posts/3-18-2024-theoretical-social-science-is-not-social-theory/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./posts/3-18-2024-theoretical-social-science-is-not-social-theory/index.html">
 <h3 class="no-anchor listing-title">
-The job of theoretical social scientists
+<a href="./posts/3-18-2024-theoretical-social-science-is-not-social-theory/index.html" class="no-external">The job of theoretical social scientists</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/3-18-2024-theoretical-social-science-is-not-social-theory/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('opinion'); return false;">
 opinion
@@ -222,14 +258,12 @@ opinion
 philosophy
 </div>
 </div>
-<a href="./posts/3-18-2024-theoretical-social-science-is-not-social-theory/index.html">
 <div class="listing-description">
-I think of myself as a theoretical social scientist, in the same sense as a theoretical physicist, chemist, or biologist. Unfortunately that does not seem to be…<em></em><em></em><em></em><em></em><em></em><em></em>
+<a href="./posts/3-18-2024-theoretical-social-science-is-not-social-theory/index.html" class="no-external">I think of myself as a theoretical social scientist, in the same sense as a theoretical physicist, chemist, or biologist. Unfortunately that does not seem to be a title that…<em></em><em></em><em></em><em></em><em></em><em></em></a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/3-18-2024-theoretical-social-science-is-not-social-theory/index.html">
+<a href="./posts/3-18-2024-theoretical-social-science-is-not-social-theory/index.html" class="no-external">
 <div class="listing-date">
 Mar 18, 2024
 </div>
@@ -239,19 +273,19 @@ Matthew Adam Turner
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="1" data-categories="review,social networks,homophily" data-listing-date-sort="1710486000000" data-listing-file-modified-sort="1710748770252" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="quarto-post image-right" data-index="1" data-categories="review,social networks,homophily" data-listing-date-sort="1710486000000" data-listing-file-modified-sort="1710961049666" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="137">
 <div class="thumbnail">
-<p><a href="./posts/3-15-2024-local-global-homophily/index.html"> <img src="./posts/3-15-2024-local-global-homophily/image.jpg" class="thumbnail-image"> </a></p>
+<p><a href="./posts/3-15-2024-local-global-homophily/index.html" class="no-external"></a></p><a href="./posts/3-15-2024-local-global-homophily/index.html" class="no-external">
+<p><img src="./posts/3-15-2024-local-global-homophily/image.jpg" class="thumbnail-image"></p>
+</a><p><a href="./posts/3-15-2024-local-global-homophily/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./posts/3-15-2024-local-global-homophily/index.html">
 <h3 class="no-anchor listing-title">
-Individual-level, group-level, and global homophily in social networks
+<a href="./posts/3-15-2024-local-global-homophily/index.html" class="no-external">Individual-level, group-level, and global homophily in social networks</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/3-15-2024-local-global-homophily/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('review'); return false;">
 review
@@ -263,14 +297,12 @@ social networks
 homophily
 </div>
 </div>
-<a href="./posts/3-15-2024-local-global-homophily/index.html">
 <div class="listing-description">
-See <span class="citation" data-cites="Kossinets2009 Centola2010 Centola2011">(Kossinets and Watts 2009; Centola 2010, 2011)</span> for some modern model and empirical foundations. <span class="citation" data-cites="Evtushenko2021">Evtushenko and Kleinberg (2021)</span> define first- and second-order homophily of a node: first-order homophily is “individual tendency to link to similar others” and second-order homophily is…
+<a href="./posts/3-15-2024-local-global-homophily/index.html" class="no-external">See <span class="citation" data-cites="Kossinets2009 Centola2010 Centola2011">(Kossinets and Watts 2009; Centola 2010, 2011)</span> for some modern model and empirical foundations. <span class="citation" data-cites="Evtushenko2021">Evtushenko and Kleinberg (2021)</span> define first- and second-order homophily…</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/3-15-2024-local-global-homophily/index.html">
+<a href="./posts/3-15-2024-local-global-homophily/index.html" class="no-external">
 <div class="listing-date">
 Mar 15, 2024
 </div>
@@ -280,19 +312,19 @@ Matthew Adam Turner
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="2" data-categories="news,review" data-listing-date-sort="1710313200000" data-listing-file-modified-sort="1710748765850" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4">
+<div class="quarto-post image-right" data-index="2" data-categories="news,review" data-listing-date-sort="1710313200000" data-listing-file-modified-sort="1712071705044" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="605">
 <div class="thumbnail">
-<p><a href="./posts/3-13-2024-ruca-intro/index.html"> <img src="./posts/3-13-2024-ruca-intro/image.jpg" class="thumbnail-image"> </a></p>
+<p><a href="./posts/3-13-2024-ruca-intro/index.html" class="no-external"></a></p><a href="./posts/3-13-2024-ruca-intro/index.html" class="no-external">
+<p><img src="./posts/3-13-2024-ruca-intro/image.jpg" class="thumbnail-image"></p>
+</a><p><a href="./posts/3-13-2024-ruca-intro/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./posts/3-13-2024-ruca-intro/index.html">
 <h3 class="no-anchor listing-title">
-Why a rigorous understanding of collective adaptation?
+<a href="./posts/3-13-2024-ruca-intro/index.html" class="no-external">Why a rigorous understanding of collective adaptation?</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/3-13-2024-ruca-intro/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('news'); return false;">
 news
@@ -301,14 +333,12 @@ news
 review
 </div>
 </div>
-<a href="./posts/3-13-2024-ruca-intro/index.html">
 <div class="listing-description">
-Our current epoch is characterized by threats of climate change, ecosystem…<span class="citation" data-cites="PisorLansingMagargal2023 Currie2024"></span><span class="citation" data-cites="GalesicEtAl2023"></span><span class="citation" data-cites="Bak-Coleman2021"></span>
+<a href="./posts/3-13-2024-ruca-intro/index.html" class="no-external">Our current epoch is characterized by threats of climate change, ecosystem loss, pandemics, political and social instability, and more. In response, we humans are challenged…<span class="citation" data-cites="PisorLansingMagargal2023 Currie2024"></span><span class="citation" data-cites="GalesicEtAl2023"></span><span class="citation" data-cites="Bak-Coleman2021"></span></a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/3-13-2024-ruca-intro/index.html">
+<a href="./posts/3-13-2024-ruca-intro/index.html" class="no-external">
 <div class="listing-date">
 Mar 13, 2024
 </div>
@@ -329,7 +359,7 @@ No matching items
 
 </section>
 
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" role="list">
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
 <div id="ref-Arthur2017" class="csl-entry" role="listitem">
 Arthur, Ronan F., Emily S. Gurley, Henrik Salje, Laura S. P. Bloomfield, and James H. Jones. 2017. <span>“<span class="nocase">Contact structure, mobility, environmental impact and behaviour: The importance of social forces to infectious disease dynamics and disease ecology</span>.”</span> <em>Philosophical Transactions of the Royal Society B: Biological Sciences</em> 372 (1719). <a href="https://doi.org/10.1098/rstb.2016.0454">https://doi.org/10.1098/rstb.2016.0454</a>.
 </div>
@@ -425,10 +455,27 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
-  function tippyHover(el, contentFn) {
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
-      content: contentFn,
       maxWidth: 500,
       delay: 100,
       arrow: false,
@@ -438,8 +485,17 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       interactive: true,
       interactiveBorder: 10,
       theme: 'quarto',
-      placement: 'bottom-start'
+      placement: 'bottom-start',
     };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
     window.tippy(el, config); 
   }
   const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
@@ -451,7 +507,130 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
-      return note.innerHTML;
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
     });
   }
       let selectedAnnoteEl;
@@ -495,6 +674,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             }
             div.style.top = top - 2 + "px";
             div.style.height = height + 4 + "px";
+            div.style.left = 0;
             let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
             if (gutterDiv === null) {
               gutterDiv = window.document.createElement("div");
@@ -520,6 +700,32 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         });
         selectedAnnoteEl = undefined;
       };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
       // Attach click handler to the DT
       const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
       for (const annoteDlNode of annoteDls) {
@@ -580,6 +786,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
+
 
 
 
