@@ -1,13 +1,13 @@
 ---
 title: "Individual-level, group-level, and global homophily in social networks"
 author: "Matthew Adam Turner"
-date: "2024-03-15"
+date: "2024-08-12"
 categories: [review, social networks, homophily]
 image: "image.jpg"
 bibliography: /Users/mt/workspace/Writing/library.bib
 ---
 
-See [@Kossinets2009;@Centola2010;@Centola2011] for some modern model and empirical foundations. @Evtushenko2021 define first- and second-order homophily of a node: first-order homophily is "individual tendency to link to similar others" and second-order homophily is "aggregate first-order homophily of its neighbors".
+See [@Kossinets2009; @Centola2010; @Centola2011] for some modern model and empirical foundations. @Evtushenko2021 define first- and second-order homophily of a node: first-order homophily is "individual tendency to link to similar others" and second-order homophily is "aggregate first-order homophily of its neighbors".
 
 Mixing in modern contexts, e.g., Pew data on friendships [@PewMultiracial2015]. Jobs from home versus frontline/essential varies by cities, races [@Dingel2020]. Not sure what to do here, but I think this will be valuable.
 

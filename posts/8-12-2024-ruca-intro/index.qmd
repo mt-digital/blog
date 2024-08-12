@@ -1,0 +1,20 @@
+---
+title: "Why a rigorous understanding of collective adaptation?"
+author: "Matthew A. Turner"
+date: "2024-08-12"
+categories: [news, review]
+image: "image.jpg"
+bibliography: /Users/mt/workspace/Writing/library.bib
+---
+
+Our world faces threats of climate change, ecosystem loss, pandemics, political and social instability, and more. We humans are challenged to respond with adaptations that mitigate or prevent greater catastrophe [@PisorLansingMagargal2023; @Currie2024]. Collective adaptation is an emergent phenomena composed of constituent sub-processes occurring across several time, population, and geographic/spatial scales: from milliseconds to millenia; from an individual to dyads to the global metapopulation; and from micrometers-long neurons to global-scale communication networks [@GalesicEtAl2023]. If we can develop a rigorous understanding of how collective adaptation works, we may be better able Optimal "stewardship of global collective behavior" [@Bak-Coleman2021] needs a scientific, rigorus understanding of collective adaptation.
+
+![Sketch of collective human and non-human collective adaptation. Novel technologies and threats both emerge from human cultural evolution. Pandemic-causing pathogens, biodiversity, and human culture all co-evolve on commensurate time scales.](image.jpg){width="50%"}
+
+Non-human populations, from viruses to whales, also co-adapt and co-evolve. Pathogen evolution is important cases due to the risk of disease outbreaks when pathogens spill over from non-human animals (e.g., birds, bats, pigs) to humans. Spillovers are increasingly common in the new epoch of rapid global change [@Baker2022]. In spillovers, pathogens are initially poorly adapted to their new human hosts, but can rescue themselves through evolution [@Visher2021]. Pathogen evolution is sensitive to metapopulation group structure [@Best2011], and therefore pathogen evolution may be sensitive to changes in human group size, asymmetric homophily levels, out-group aversion, and rising extremism and polarization. If we could predict which groups are most likely to get infected, and which individuals are best to target for intervention towards pandemic preparedness behaviors (such as getting vaccinated), we could more efficiently use available resources.
+
+Beyond applications to critical problems, collective adaptation theory can be used to better understand culture in other species, for example whales who collectively generate, through transmission and modulation, a cumulative cultural repertoire of whale songs [@Garland2022].
+
+## The RUCA approach
+
+Rigor takes time, following a step-wise approach to understand which parts of a system interact, and how, to cause the emergence of higher-order processes constituted by those interactions. This is known as *mechanistic modeling* [@Turner2022]. Mechanistic models are useful for emergent phenomena such as collective adaptation because they force experimenters to explicitly state what are the component parts of their system of interest [@Kauffman1970] and how do they interact to produce some process composed of numerous such interactions [@Craver2006]. My work develops mechanistic models that synthesize, connect, and clarify diverse adaptive and social processes and understand the sometimes unexpected consequences of the interaction of these processes and the environment [@Turner2018; @Turner2020; @Turner2023a; @Turner2023].
