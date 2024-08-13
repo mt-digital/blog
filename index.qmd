@@ -8,19 +8,18 @@ bibliography: /Users/mt/workspace/Writing/library.bib
 
 # Matthew Adam Turner, PhD {#name}
 
-## Theoretical and computational social scientist {#title}
-
-## Director of the Rigorous Understanding of Collective Adaptation (RUCA) Project
+## Director of the Rigorous Understanding of Collective Adaptation (RUCA) Project {#title}
 
 ### Current role
 
-I am currently a [Pandemic Preparedness Postdoctoral Scholar](https://pandemichub.stanford.edu/fellows/) working in [James Holland Jones' Human Evolutionary Ecology and Health](https://heeh.stanford.edu/about/james-holland-jones) group in the Social Sciences Division of the Stanford Doerr School of Sustainability at Stanford University. I will soon develop and teach undergraduate and graduate courses in computational social science for sustainability as a Lecturer, beginning November 2024 at the Stanford Doerr School of Sustainability. I direct the Rigorous Understanding of Collective Adaptation (RUCA) project, explained below.
+I am currently a [Pandemic Preparedness Postdoctoral Scholar](https://pandemichub.stanford.edu/fellows/) working in [James Holland Jones' Human Evolutionary Ecology and Health](https://heeh.stanford.edu/about/james-holland-jones) group in the Social Sciences Division of the Stanford Doerr School of Sustainability at Stanford University. I will soon develop and teach undergraduate and graduate courses in computational social science for sustainability as a Lecturer, beginning November 2024 at the Stanford Doerr School of Sustainability. 
+<!-- I direct the Rigorous Understanding of Collective Adaptation (RUCA) project, explained below. -->
 
 ### Pursuing a rigorous understanding of collective adaptation
 
-Climate disaster mitigation and pandemic preparedness need a science of collective adaptation to make wise policy. To meet this need, the **r**igorous **u**nderstanding of **c**ollective **a**daptation (RUCA) project studies how populations of individuals collectively adapt to their social and physical environment through exploratory learning, social influence, and evolution. The RUCA project develops mechanistic models of how collective adaptation emerges from ongoing social interactions and how social networks, environmental variability, and context generally affect, and are affected by, collective adaptation. Computational mechanistic models allow us to computationally test the logic of candidate hypotheses about how collective adaptation emerges, or to explain emergent collective adaptation in empirical data.
+Climate disaster mitigation and pandemic preparedness need a science of collective adaptation to make wise policy. To meet this need, the **r**igorous **u**nderstanding of **c**ollective **a**daptation (RUCA) project studies how populations of individuals collectively adapt to their social and physical environment through exploratory learning and innovation, social influence, and evolution. The RUCA project develops mechanistic models of how collective adaptation emerges from repeated social interactions within social networks and variable, uncertain environments. Computational mechanistic models allow us to analyze and predict the efficacy of candidate interventions for more sustainable ecologies and improved public health that would be impossible or unethical to test experimentally.
 
-My [blog](blog.qmd) collects RUCA-relevant research notes, thoughts, and tutorials. Please also see some select works below that outline my contributions to a rigorous understanding of collective adaptation or my [CV](static/turner_cv.pdf) to learn more.
+My [blog](blog.qmd) collects RUCA-relevant research notes, thoughts, and tutorials. Please also see the select works below that outline my contributions to a rigorous understanding of collective adaptation, or my [CV](static/turner_cv.pdf), to learn more.
 
 ### Select works
 
