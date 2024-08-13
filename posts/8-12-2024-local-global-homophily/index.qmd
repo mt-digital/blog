@@ -5,6 +5,7 @@ date: "2024-08-12"
 categories: [review, social networks, homophily]
 image: "image.jpg"
 bibliography: /Users/mt/workspace/Writing/library.bib
+draft: true
 ---
 
 See [@Kossinets2009; @Centola2010; @Centola2011] for some modern model and empirical foundations. @Evtushenko2021 define first- and second-order homophily of a node: first-order homophily is "individual tendency to link to similar others" and second-order homophily is "aggregate first-order homophily of its neighbors".

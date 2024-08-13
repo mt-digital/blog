@@ -9,5 +9,4 @@ bibliography: /Users/mt/workspace/Writing/library.bib
 draft: true
 ---
 
-
 My and others' work to developing rigorous theories of social science often proceeds by positing and analyzing the consequences of mechanistic explanations of observed patterns in social behavior. Analyzing mechanistic models could be done a number of ways, including mathematical derivations and computational modeling approaches like generative or agent-based modeling. Our mechanistic explanations can then be synthesized and updated to explain a larger set of observations or to explain observations more accurately. Mechanistic models can be evaluated experimentally to see how well the predictions made by the mechanistic explanation's simulation machine match real-world social behavior and emergent phenomena.

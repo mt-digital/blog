@@ -5,18 +5,17 @@ date: "2024-04-18"
 categories: [writing, personal development]
 image: "image.jpg"
 bibliography: /Users/mt/workspace/Writing/library.bib
+draft: true
 ---
 
 ## The need for storytelling in (theoretical social) science
 
-
-
 ## Improv and storytelling exercises
 
-- Count to three four different ways, ta-da! (Nora)
-- Life history three ways: layers of storytelling (Michele Barry)
-- Secret handshake (Peng? from China)
-- Yes, and (Satya?)
-- Create and memorize a motto: "Always be ready for adventure despite any fences" (Riley)
-- "Man in a hole" version of why we care about health & sustainability storytelling (Lilly)
-- Answering machine message version of who we are, what we care about, our goals, and what we do to achieve them; "Man in a hole" message gets left on the machine from someone who has been positively impacted by our program (Lilly)
+-   Count to three four different ways, ta-da! (Nora)
+-   Life history three ways: layers of storytelling (Michele Barry)
+-   Secret handshake (Peng? from China)
+-   Yes, and (Satya?)
+-   Create and memorize a motto: "Always be ready for adventure despite any fences" (Riley)
+-   "Man in a hole" version of why we care about health & sustainability storytelling (Lilly)
+-   Answering machine message version of who we are, what we care about, our goals, and what we do to achieve them; "Man in a hole" message gets left on the machine from someone who has been positively impacted by our program (Lilly)
