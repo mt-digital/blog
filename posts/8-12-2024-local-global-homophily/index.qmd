@@ -12,6 +12,13 @@ See [@Kossinets2009; @Centola2010; @Centola2011] for some modern model and empir
 
 Mixing in modern contexts, e.g., Pew data on friendships [@PewMultiracial2015]. Jobs from home versus frontline/essential varies by cities, races [@Dingel2020]. Not sure what to do here, but I think this will be valuable.
 
+Outline:
+
+1.  Types of Homophily: global (give empirical examples if possible, e.g. here, [@Kossinets2009; @Centola2010; @Centola2011; @Golub2012]), second-order ([@Evtushenko2021]), higher-order([@]; how to measure homophily?
+2.  Our approach to homophily, so h=0 means equal probability of in directed graphs; compare maybe to [@Apollonio2022]
+3.  Stochastic block models two-group intro. Using our counting method for calculating homophily in those models.
+4.  Different numbers of connections between groups.
+
 Homophily could be invisible or not. For instance, experimenters could put people into groups with different homophily values, but it would be invisible without group markers. Could try to have different conditions that reveal group membership to see if knowledge of group membership inhibits diffusion of adaptations. Could probably do different things to increase animosity towards the out-group, but not sure what just yet.
 
 ![Homophily example probably just placeholder.](image.jpg){width="70%"}
