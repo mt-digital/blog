@@ -1,24 +1,71 @@
 ---
-title: "Individual-level, group-level, and global homophily in social networks"
-author: "Matthew Adam Turner"
+title: "Varieties of homophily and clustering in metapopulation theories of cultural evolution"
+author: "Matthew A. Turner"
 date: "2024-08-12"
 categories: [review, social networks, homophily]
 image: "image.jpg"
 bibliography: /Users/mt/workspace/Writing/library.bib
-draft: true
+draft: false
 ---
 
-See [@Kossinets2009; @Centola2010; @Centola2011] for some modern model and empirical foundations. @Evtushenko2021 define first- and second-order homophily of a node: first-order homophily is "individual tendency to link to similar others" and second-order homophily is "aggregate first-order homophily of its neighbors".
+# Intro
 
-Mixing in modern contexts, e.g., Pew data on friendships [@PewMultiracial2015]. Jobs from home versus frontline/essential varies by cities, races [@Dingel2020]. Not sure what to do here, but I think this will be valuable.
+(BELOW PAR IS GOOD INTRO, BUT MOVE REFERENCES TO A NEW PARAGRAPH AFTER SHORT INTRO, EXPLAINING BRIEFLY *HOW* NETWORK STRUCTURE AFFECTS THESE FOUR EXAMPLES. GO SHORT WITH SENTENCES AND PARAGRAPHS IN BLOG)
 
-Outline:
+What do innovation in an online puzzle game [@Derex2016; @Moser2023], health and weight loss interventions [@Centola2010a; @Centola2011; @Zhang2019], the diffusion of climate change adaptations [@Jones2021; @Turner2023], and political polarization [@Flache2011; @Turner2018] have in common? In all these cases, certain social networks enable more effective development and dissemination of collective intelligence [@Centola2022], potentially enabling more effective cultural adaptation [@GalesicEtAl2023], but also sometimes amplifying problematic cultural phenomenon like polarization [@Flache2011; @Turner2018].
 
-1.  Types of Homophily: global (give empirical examples if possible, e.g. here, [@Kossinets2009; @Centola2010; @Centola2011; @Golub2012]), second-order ([@Evtushenko2021]), higher-order([@]; how to measure homophily?
-2.  Our approach to homophily, so h=0 means equal probability of in directed graphs; compare maybe to [@Apollonio2022]
-3.  Stochastic block models two-group intro. Using our counting method for calculating homophily in those models.
-4.  Different numbers of connections between groups.
+## How to quantitatively define network structure
+
+In my current project to understand the diffusion of innovations in minority-majority metapopulations, I use group-level *homophily* to define social network structure, where homophily is the tendency of individuals from one group to interact more frequently within their own group compared to the out-group. There seems to be no definitive way to quantify homophily, so I chose one that made the most sense to me. There are many types of homophily that may be important, as well, which I review here.
+
+An alternative to homophily for defining social network structure is to focus on the degree to which a social network has a core-periphery structure, hypothesized to be critical for effective climate change adaptation [@Jones2021] and
+
+### Homophily
+
+-   See [@Kossinets2009; @Centola2010; @Centola2011] for some modern model and empirical foundations. @Evtushenko2021 define first- and second-order homophily of a node: first-order homophily is "individual tendency to link to similar others" and second-order homophily is "aggregate first-order homophily of its neighbors".
+
+    Outline:
+
+    1.  Types of Homophily: global (give empirical examples if possible, e.g. here, [@Kossinets2009; @Centola2010; @Centola2011; @Golub2012]), second-order ([@Evtushenko2021]), higher-order(\[\@\]; how to measure homophily? There is a difference between different *measures* of homophily and different forms of homophily: Kossinets & Watts also define homophily arising more from preference and those arising more from circumstance (work/profession, neighborhood, etc.), but of course a certain profession or neighborhood may be correlated with other potential group markers such as race or ethnicity.
+
+-   @Kossinets2009
+
+-   @Centola2011
+
+-   @Turner2018
+
+    -   Long-range ties may not be as effective if multiple exposures required [@Centola2007; @Centola2007a], e.g., due to cultural inertia from social or religious norms [@Vogt2016; @Efferson2020]
+
+### Core-periphery
+
+Core-periphery: - @Milzman2023 - @Priebe2019
+
+The sophistication of culturally-evolved behaviors and the speed and success of cultural diffusion depends upon group structure in metapopulations of interest, where a metapopulation is a population with distinct groups. Group structure is an aggregate property of metapopulations that specifies the probabilities of a member of one group interacting with members of its own group or another group. My agent-based modeling work so far has operationalized group structure in terms of *homophily*, which is a measure of the frequency of within- and between-group interactions. An alternative operationalization defines group structure via latent parameters of Bayesian priors in a generative statistical model. These models are complementary, so that possibly fitting latent parameters that determine clustering and core-periphery structure in a stochastic block model have an equivalent representation in terms of asymmetric homophily. This points to an eventual mathematical explanation that could calculate stochastic block parameters directly from a given set of asymmetric homophily values.
+
+1.  Stochastic block models two-group intro. Using our counting method for calculating homophily in those models.
+2.  Different numbers of connections between groups.
+3.  Fit stochastic block model to generated networks using our code via Cody Ross's
 
 Homophily could be invisible or not. For instance, experimenters could put people into groups with different homophily values, but it would be invisible without group markers. Could try to have different conditions that reveal group membership to see if knowledge of group membership inhibits diffusion of adaptations. Could probably do different things to increase animosity towards the out-group, but not sure what just yet.
 
+# 
+
+# Stochastic block model fits of symmetric homophily-defined networks
+
 ![Homophily example probably just placeholder.](image.jpg){width="70%"}
+
+## SBM parameters of asymmetric homophily-defined networks
+
+We expect that when we create networks based on an agent-centric generative procedure then fit a
+
+## Complementary approaches with a common goal
+
+# Possible next related to this topic...
+
+Future posts may explore
+
+1.  calcuating homophily of stochastic block models more directly; possibly @Caltagirone2018 can be used, which, as the title says, describes how to "recover\[\] asymmetric communities in the stochastic block model"
+2.  the relationship between stochastic block models and exponential random graph models (i.e., ERGMs): see @Eldan2018
+3.  homophily in ergms
+4.  metapopulation structure and epidemiology
+5.  
