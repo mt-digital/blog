@@ -1,5 +1,5 @@
 ---
-title: "Varieties of homophily and clustering in metapopulation theories of cultural evolution"
+title: "Varieties of homophily and core-periphery in metapopulation theories of cultural evolution"
 author: "Matthew A. Turner"
 date: "2024-08-12"
 categories: [review, social networks, homophily]
