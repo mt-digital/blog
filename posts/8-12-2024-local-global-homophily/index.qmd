@@ -10,15 +10,17 @@ draft: false
 
 # Intro
 
-(BELOW PAR IS GOOD INTRO, BUT MOVE REFERENCES TO A NEW PARAGRAPH AFTER SHORT INTRO, EXPLAINING BRIEFLY *HOW* NETWORK STRUCTURE AFFECTS THESE FOUR EXAMPLES. GO SHORT WITH SENTENCES AND PARAGRAPHS IN BLOG)
+What do innovation in an online puzzle game [@Derex2016; @Moser2023; @Milzman2023]; health and weight loss interventions [@Centola2010a; @Centola2011; @Zhang2019]; the diffusion of ready-to-hand climate change adaptations [@Jones2021; @Turner2023]; prediction of HIV propagation through mutli-ethnic, urban social networks [@Morris1991]; political polarization [@Flache2011; @Turner2018]; and pro-democracy protest movements like the Arab Spring [@Barbera2015; @Steinert-Threlkeld2017] all have in common? In all these cases, social network structure enabled more effective development and dissemination of collective intelligence [@Centola2022], potentially enabling more effective cultural adaptation [@GalesicEtAl2023], but also sometimes amplifying problematic collective maladaptations in the case of polarization.
 
-What do innovation in an online puzzle game [@Derex2016; @Moser2023], health and weight loss interventions [@Centola2010a; @Centola2011; @Zhang2019], the diffusion of climate change adaptations [@Jones2021; @Turner2023], and political polarization [@Flache2011; @Turner2018] have in common? In all these cases, certain social networks enable more effective development and dissemination of collective intelligence [@Centola2022], potentially enabling more effective cultural adaptation [@GalesicEtAl2023], but also sometimes amplifying problematic cultural phenomenon like polarization [@Flache2011; @Turner2018].
+These examples show that network structure matters. However, these examples operationalize and quantify social network structure in different, idiosyncratic ways. It is therefore difficult to know whether the same network effects are at work in different study contexts. In turn, it is difficult to synthesize our scientific understanding of how network structure affects cultural adaptation in general. In this post I aim to synthesize two common approaches to quantifying social network structure observed to affect cultural adaptation: *homophily* [@Kossinets2009] and the degree of *core-periphery structure* in a network [@Borgatti1999; @Priebe2019], which I dub *core-peripheriness*. I will first give brief introductions to the many possible definitions and operationalizations that exist for these two measures. Then to synthesize the two, I will fit a stochastic block model to social networks constructed using an algorithm I developed based on group-level homophily in the special case of a *metapopulation* (i.e., a population composed of sub-populations) composed of two groups.
 
-## How to quantitatively define network structure
+This approach helps advance the social science of collective adaptation by initiating the development of a common framework for construction or measurement of social networks that could be used across formal, computational, and empirical studies. In this way we stop "playing twenty questions with nature" [@Almaatouq2022] that happens when we have "twenty" (or more, or at least several) different ways of defining social network structure. A common framework can instead provide a foundation for new studies to build on. New studies can then multiply our knowledge instead of fracture it, as will continue to occur without a shared framework.
 
-In my current project to understand the diffusion of innovations in minority-majority metapopulations, I use group-level *homophily* to define social network structure, where homophily is the tendency of individuals from one group to interact more frequently within their own group compared to the out-group. There seems to be no definitive way to quantify homophily, so I chose one that made the most sense to me. There are many types of homophily that may be important, as well, which I review here.
+## Approaches to operationalize social network structure
 
-An alternative to homophily for defining social network structure is to focus on the degree to which a social network has a core-periphery structure, hypothesized to be critical for effective climate change adaptation [@Jones2021] and
+There are two main theoretical approaches to quantifying social network structure that I want to cover here: the *homophily* of the network and the *core-peripheriness* of the network. *Homophily* measures how frequently individuals interact with members of their own group compared to members of out-groups. In cultural evolutionary studies, homophily is almost always a global property, but we have ongoing work that relaxes this assumption to analyze *asymmetric homophily*, where homophily is different for each group. *Core-peripheriness* separates a metapopulation into one *core* group and a *periphery* composed of one or moregroups. The core group is characterized by dense connections between members with high *transitivity*, i.e., social triangles where if one individual is connected to two others, it is highly likely the two connections are also connected. The *periphery* is characterized by relatively sparse connections between individuals in the periphery and the core. It seems these are the two most fundamental approaches that give rise to what might be called higher-order properties of networks, such as transitivity and *average path length*, i.e., the mean number of social connections one must traverse to send a message from person to person like in the children's game "telephone".
+
+Both of these network structure definitions themselves have been quantified or operationalized various ways. Here are some notes on how different papers quantified homophily and core-peripheriness.
 
 ### Homophily
 
@@ -46,26 +48,38 @@ The sophistication of culturally-evolved behaviors and the speed and success of 
 2.  Different numbers of connections between groups.
 3.  Fit stochastic block model to generated networks using our code via Cody Ross's
 
-Homophily could be invisible or not. For instance, experimenters could put people into groups with different homophily values, but it would be invisible without group markers. Could try to have different conditions that reveal group membership to see if knowledge of group membership inhibits diffusion of adaptations. Could probably do different things to increase animosity towards the out-group, but not sure what just yet.
-
 # 
 
-# Stochastic block model fits of symmetric homophily-defined networks
+# Asymmetric homophily-defined networks fit to stochastic block models
 
-![Homophily example probably just placeholder.](image.jpg){width="70%"}
+To begin to understand the connection between asymmetric homophily and core-peripheriness, I will first explain how to simulate minority-majority social networks using group-level asymmetric homophily, then demonstrate how to fit a stochastic block model network with two blocks to infer the core-peripheriness of networks with different homophily levels. I close the section with a brief analysis that compares core-peripheriness of networks produced with different asymmetric homophily values.
+
+## Asymmetric homophily-defined networks
+
+![Homophily sets the probability that an agent potentially receives information from another agent within its own group, or from another group. The value is the number of percentage points more likely it is that a focal agent connects with in-group members compared to out-group members, with negative homophily indicating out-group connections are more likely than in-group.](homophily_sketch.jpg){fig-align="right" width="50%"}
+
+![When there is a minority group, teachers in the minority group are over-represented as teachers, indicated by the dense pink edges pointing from the minority to the majority, representing minority-teacher, majority-learner relationships.](HomophilyNetworkConstruction.jpg){width="100%"}
+
+## Stochastic block model networks and core-peripheriness
+
+The stochastic block model (SBM) uses probabilities of what we conceptualize as teacher-learner relationships between core and periphery to define the network. In SBM language, each group is a "block". The log-odds probability of an edge from a node in group $i$ to a node in group $j$ is written $B_{ij}$. With two groups, or "blocks", there are thus four probabilities to define. To continue with the minority-majority framing from the asymmetric homophily model, we write these terms SBM connection probabilities as follows. $B_{\mathrm{maj,maj}}$ is the connection probability among the core majority group; $B_{\mathrm{min,maj}}$ is the probability of a minority member possibly teaches a majority member; $B_{\mathrm{maj,min}}$ is the probability a majority member possibly teaches a minority member; and $B_{\mathrm{min,min}}$ is the probability a minority member possibly teaches another minority member. To simplify notation and match other notation choices in the literature, we can call $a=B_\mathrm{maj,maj}$, $b = B_\mathrm{maj, min}$, $c = B_\mathrm{min,maj}$, and $d=B_\mathrm{min,min}$. These are then organized into the *block matrix*, $$
+B = 
+  \begin{pmatrix} 
+    a & b \\
+    c & d
+  \end{pmatrix}.
+$$
+
+From this we can define a measure of core-peripheriness appropriate for our purposes, based on some approaches from the literature. For now we adapt the approach of @Milzman2023 who developed an agent-based model to better understand why participants in partially-connected groups outperformed participants in fully-connected groups in a cumulative cultural puzzle game in @Derex2016. Milzman and Moser set $b = c$ and use $c$ in place of $d$, but we will adapt their classifications to relax this assumption and assume that in general $b \neq c$.
+
+Milzman and Moser group core-peripheriness in one of three classes with fuzzy boundaries based on the relative values of the block connection probabilities. They adapt similar definitions in @Priebe2019, who used the definitions to understand commonalities and differences in the information obtained through different methods of network dimensionality reduction. First, *decentralized core-periphery structure* has a densely-connected core but weakly connected periphery, and weak connectivity between the periphery and the core, i.e., $a >> b,c,d$. Second, *centralized core-periphery structure* has more connections between the periphery and the core, but weak connectivity within the periphery, i.e., $a,c,b >> d$. Finally, *affinity structure* has little core-periphery structure, and is dominated by within-group connections so that the diagonal elements of the block matrix dominate, i.e., $a,d >> b,c$. As in our asymmetric homophily model, Milzman and Moser fix the total number of edges in the network, but vary $a,b,c,d$ to create different networks that fall along the decentralized-centralized-affinity spectrum. They find that decentralized core-periphery structure optimizes cumulative cultural evolution in a simulated version of the experimental task in @Derex2016.
+
+For directed graphs, @Elliott2020 provide the most thorough core-peripheriness measure, which they call *core–periphery modularity*, which "measures partition quality" . We will not use Elliot and co-authors definition exactly because their goal is to *identify* core-periphery structure, and there exist alternative measures which we build on below. First, just note that Elliot and co-authors generalize the now-classic treatment of core-periphery structure by @Borgatti1999, which only considered undirected graphs. Maximal core-peripheriness, according to Borgatti and Everett, is the situation where the core is fully connected, and every member of the periphery is connected to every core member, but not connected to any other periphery members. A future post may test Elliott and co-author's core-periphery modularity for measuring *core-peripheriness.*
 
 ## SBM parameters of asymmetric homophily-defined networks
 
-We expect that when we create networks based on an agent-centric generative procedure then fit a
+Since decentralized core-periphery structure outperformed other structures, we will make an *ad-hoc* measure of core-peripheriness based on the fact that $a >> b,c,d$ implies decentralized core-periphery. Let's define core-peripheriness to thus be
 
-## Complementary approaches with a common goal
-
-# Possible next related to this topic...
-
-Future posts may explore
-
-1.  calcuating homophily of stochastic block models more directly; possibly @Caltagirone2018 can be used, which, as the title says, describes how to "recover\[\] asymmetric communities in the stochastic block model"
-2.  the relationship between stochastic block models and exponential random graph models (i.e., ERGMs): see @Eldan2018
-3.  homophily in ergms
-4.  metapopulation structure and epidemiology
-5.  
+$$
+\Gamma = \frac{a}{b + c + d}
+$$

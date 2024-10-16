@@ -67,13 +67,16 @@ sbm_make_min_maj = function(metapop_size = 100, min_frac = 0.05,
 }
 
 
+fit_sbm_to_minmaj_net = function(minmaj_net) {
+  # 
+}
+
+
 # Default parameter settings for simulated min-maj data with block-only SBM fit.
 fit_sbm_to_sbm_min_maj = function(sim_minmaj_dat, iter_warmup = 20, 
                                   iter_sampling = 20, chains = 4, 
                                   seed = NULL) {
-
-
-
+  
   strand_minmaj_dat = make_strand_data(self_report = list(sim_minmaj_dat$network),
                                        block_covariates = groupsf_df(sim_minmaj_dat$group_ids$Group),
                                        individual_covariates = NULL,
@@ -89,7 +92,7 @@ fit_sbm_to_sbm_min_maj = function(sim_minmaj_dat, iter_warmup = 20,
       mode="mcmc",
       stan_mcmc_parameters = 
         list(seed = seed, chains = chains, parallel_chains = chains, 
-             refresh = 1, iter_warmup = 20, iter_sampling = 20, 
+             refresh = 1, iter_warmup = iter_warmup, iter_sampling = iter_sampling, 
              max_treedepth = NULL, adapt_delta = NULL)
       )
   
