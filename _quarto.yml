@@ -3,6 +3,7 @@ project:
 
 website:
   title: "MA Turner, PhD"
+  favicon: favicon.jpg
   navbar:
     left:
       - text: "CV"
