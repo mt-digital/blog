@@ -18,6 +18,8 @@ website:
     right:
       - text: "RUCA Blog"
         file: blog.qmd
+      - text: Teaching
+        file: teaching.qmd
       
 format:
   html:

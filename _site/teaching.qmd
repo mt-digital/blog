@@ -1,0 +1,9 @@
+---
+title: "Teaching"
+---
+
+Starting November 1, 2024, I will be developing two courses for the Stanford Doerr School of Sustainability to be delivered starting Winter 2025.
+
+1. Winter 2025 [EBS 182/282 Computational Social Science for Sustainability](teaching/EBS_X82)
+
+2. Spring 2025 [EBS 181/281 Agent-based Modeling](teaching/EBS_X81)
