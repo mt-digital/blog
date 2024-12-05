@@ -1,0 +1,245 @@
+---
+title: "Using Ostrom's Eight Design Principles as a Guide to Rigorous Social
+Science for Sustainability"
+author: "Matthew A. Turner"
+date: "2024-12-02"
+categories: [review,theory,code]
+image: "image.jpg"
+bibliography: /Users/mt/workspace/Writing/library.bib
+server: shiny
+---
+
+
+
+## Introduction
+
+Sustainable human thriving is threatened by aggregated behavioral choices that
+have resulted in anthropogenic climate change and
+rapid ecosystem degredation. This further inflames political and
+social instability and increases the risk of, and uncertainty around,
+climatic disasters, pandemics and other catastrophes. 
+
+Ostrom's design principles...
+
+To study social dynamics and sustainability we recombine existing scientific
+methodologies to synthesize new, practical social scientific theories
+[@Fodor1974; @Feyerabend2010].
+Computational social science provides tools to rigorously understand human 
+behavior, can help reduce risk and uncertainty to "steward[]...global collective
+behavior" towards more equitable, prosperous, and sustainable equilibria
+[@Bak-Coleman2021]. The challenges of designing sustainable 
+
+Before too much abstraction, though, let's evaluate an example of a common
+dilemma for individuals when making choices about sustainabile behaviors: the
+decision of whether to participate in _reducing deforestation and land
+degradation_, especially _in the developing world_ (REDD+ is the common acronymn). 
+
+### Example sustainability dilemmas
+
+In the California Central Valley, groundwater drawdown is causing the earth to
+sink and is most immediately degrading the water supply for 
+historically-disadvantaged rural communities. The Sustainable Groundwater
+Management Act (SGMA) limits groundwater extractions, but enforcement may be ) 
+
+If rewards are given at the community level, then one may be tempted not to
+cooperate, or to _free ride_, i.e., to reap benefits of collective action
+without participating. In general, whether or not we contribute 
+
+Many factors contribute to making this decision; we'll focus on game theoretic
+factors; other factors to consider can be summarized as _individual and social learning_ and
+_social influence_, and the resulting _opinion dynamics_.
+
+Here we will show two simple examples of studying why people do or do not 
+cooperate with one another. _R_ code snippets are provided along with the 
+widgets that display the models.
+
+Sustainable behaviors often require some sort of cooperation to achieve a
+critical mass of participation necessary for real change. If only a few nations,
+corporations, or individuals commit to and perform greenhouse gas reduction, 
+no meaningful progress will be made. In the case of REDD+ interventions, 
+deforestation will not be significantly reduced if only a few farmers
+participate. If we assume people are self-interested and rational, under what
+conditions do groups cooperate? 
+
+In the next two sections, I introduce two models of cooperation that have been
+used to answer this question. One is based on cooperation _games_ played by
+two agents at a time. 
+
+
+## The sustainability (prisoners') dilemma: cooperate?
+
+```{r}
+nagents <- 6
+# Symbols from 
+alpha <- 0
+beta <- 3
+gamma <- 1
+
+payoff_matrix <- 
+network <- "complete"
+model <- GameModel$new(nagents) 
+```
+
+
+## Contribute or freeride? That depends...
+
+In sustainability dilemmas contribute somewhat anonymously to our group's 
+finances to achieve shared goals.
+
+## Conclusion
+
+We saw two models of .
+
+All scientific models must decide at which joints to cut nature, Some call this
+violence done to nature, focusing on the carnal features of this butchering
+metaphor. Scientific carving, however, is not done with long, sharp, heavy
+knives, but by hypothetically eliminating variability in some potentially
+important social dynamics to extract theoretical meat in the form of a deeper
+understanding of other social dynamics that could be affected by, but do not
+require, dynamical input from other important processes. Furthermore, it is
+significantly more arbitrary where the joints really are, especially in inexact
+behavioral and social sciences [@Fodor1974].  Slater and Borghini quote Plato,
+"...like an animal, the world comes to us predivided" and that  [@Slater2011].
+In more exact sciences like physics, chemistry, and even ecology, it may be
+easier to perceive these divisions phenomena. In those sciences, nature seems
+predivided as electrons, protons, neutrons, which combine to form the elements
+and molecules.  In the relatively more complex and uncertain science of ecology,
+species are defined as groups whose members can mate with one another, but not
+with members of other groups. In less exact sciences of behavioral and social
+systems, with greater intrinsic uncertainty and complexity, it is important
+to understand that people, their behaviors, and their environment are the 
+
+
+In the examples above, we made some implicit assumptions about behavioral and
+social dynamics that could theoretically 
+
+the world that maximize the amount of theoretical meat extracted from a minimum
+amount of cuts. These assumptions 
+
+exercise
+is to identify one essential interaction between two to $N$ agents that 
+
+## References
+
+
+
+
+
+
+
+
+
+
+<!-- XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+<!-- eity show how computational social science
+can help us understand the logic of .
+Many 
+For example, high-Bolivian either contribute to
+shared resource infrastructure to . Doerr graduate student and Human
+Evolutionary Ecology and Health member Cesar 
+
+In this blog post, I outline how _computational social
+science_ in its current state provides a useful synthesis along these lines, along with a set of
+other basic ingredients which can be refined for specific problems in
+_sustainability_ [@PisorLansingMagargal2023; @Currie2024]. Here I
+begin laying out the structure and material for a new course and book I will
+begin teaching in January 2025 at the [Stanford Doerr School of
+Sustainability](https://sustainability.stanford.edu/), _Computational Social Science for Sustainability_.
+
+### Measuring behavior adoption and opinions or beliefs
+
+### Social science can promote sustainability by controlling complexity
+
+### Computational modeling adds rigor to social science theories
+
+### Model development as storytelling
+
+
+## Computational social science as the search for useful model representations 
+
+### Science as storytelling
+
+
+
+### Types and uses of social science models
+
+#### Deterministic versus generative models
+
+MCMC generative model for fitting models to data; King Markov code example.
+
+
+#### Models classified by choice of representation
+
+
+
+### Cultural evolution: _knowledge_ as _traits_
+
+Biases
+
+### Opinion dynamics: _discourse_ as a _force_
+
+- Start with Asch and Degroot on the force of consensus
+- Biased assimilation and avoidance of cognitive dissonance leads to ignorance of differing opinions
+- Repulsion pushes 
+
+#### Data fitting exercise: 
+
+### Social networks and groups: _people_ as _nodes_
+
+#### How social networks affect cultural evolution and opinion dynamics
+
+##### Exercise: Axelrod's 1997 model of cultural differentiation 
+
+##### Exercise: Medicis
+
+##### Exercise: UC Merced Faculty
+
+#### Social networks with groups
+
+##### Exercise: Homphily-defined social networks fit by stochastic block model
+
+### Linguistics: _concepts_ defined by _co-occurrence patterns_
+
+
+#### Data fitting exmaple
+
+## Synthesis–or at least an acceptance of disunity
+
+## Review and a look ahead
+
+
+
+
+## References
+
+<!-- Collective
+adaptation is an emergent phenomena composed of constituent sub-processes
+occurring across several time, population, and geographic/spatial scales: from
+milliseconds to millenia; from an individual to dyads to the global
+metapopulation; and from micrometers-long neurons to global-scale communication
+networks [@GalesicEtAl2023]. If we can develop a rigorous understanding of how
+collective adaptation works, we may be better able to optimize "stewardship of
+global collective behavior" [@Bak-Coleman2021]. Modern stewardship of collective
+behavior at all population scales needs the scientific, rigorous understanding
+olossf collective adaptation we contribute to in the RUCA project.
+
+![Sketch of collective human and non-human collective adaptation. Novel technologies and threats both emerge from human cultural evolution. Pandemic-causing pathogens, biodiversity, and human culture all co-evolve on commensurate time scales.](image.jpg){width="50%"}
+
+Non-human populations, from viruses to whales, also co-adapt and co-evolve. Pathogen evolution is important cases due to the risk of disease outbreaks when pathogens spill over from non-human animals (e.g., birds, bats, pigs) to humans. Spillovers are increasingly common in the new epoch of rapid global change [@Baker2022]. In spillovers, pathogens are initially poorly adapted to their new human hosts, but can rescue themselves through evolution [@Visher2021]. Pathogen evolution is sensitive to metapopulation group structure [@Best2011], and therefore pathogen evolution may be sensitive to changes in human group size, asymmetric homophily levels, out-group aversion, and rising extremism and polarization. If we could predict which groups are most likely to get infected, and which individuals are best to target for intervention towards pandemic preparedness behaviors (such as getting vaccinated), we could more efficiently use available resources.
+
+Beyond applications to critical problems, collective adaptation theory can be used to better understand culture in other species, for example whales who collectively generate, through transmission and modulation, a cumulative cultural repertoire of whale songs [@Garland2022].
+
+## The RUCA approach
+
+Rigor takes time, following a step-wise approach to understand which parts of a
+system interact, and how, to cause the emergence of higher-order processes
+constituted by those interactions. This is known as *mechanistic modeling*
+[@Turner2022]. Mechanistic models are useful for emergent phenomena such as
+collective adaptation because they force experimenters to explicitly state what
+are the component parts of their system of interest [@Kauffman1970] and how do
+they interact to produce some process composed of numerous such interactions
+[@Craver2006]. My work develops mechanistic models that synthesize, connect, and
+clarify diverse adaptive and social processes and understand the sometimes
+unexpected consequences of the interaction of these processes and the
+environment [@Turner2018; @Turner2020; @Turner2023a; @Turner2023]. -->

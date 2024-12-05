@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Matthew A. Turner">
+<meta name="dcterms.date" content="2024-11-20">
 
-<title>MA Turner, PhD - The RUCA Blog</title>
+<title>MA Turner, PhD - A preview of Computational Social Science for Sustainability</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -43,24 +45,22 @@ div.csl-indent {
 }</style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -88,77 +88,19 @@ div.csl-indent {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-main-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
 
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-main-listing'] = new List('listing-main-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../../styles.css">
 </head>
 
-<body class="nav-fixed">
+<body class="nav-fixed fullcontent">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top quarto-banner">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">MA Turner, PhD</span>
     </a>
   </div>
@@ -169,7 +111,7 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./static/turner_cv.pdf"> 
+    <a class="nav-link" href="../../static/turner_cv.pdf"> 
 <span class="menu-text">CV</span></a>
   </li>  
   <li class="nav-item compact">
@@ -190,7 +132,7 @@ window.Quarto = {
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./blog.html" aria-current="page"> 
+    <a class="nav-link" href="../../blog.html"> 
 <span class="menu-text">RUCA Blog</span></a>
   </li>  
 </ul>
@@ -203,177 +145,180 @@ window.Quarto = {
 <!-- content -->
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-page-left">
-      <h1 class="title">The RUCA Blog</h1>
-            <p class="subtitle lead">Sketches for a Rigorous Understanding of Collective Adaptation</p>
-                      </div>
+    <div class="quarto-title column-body">
+      <h1 class="title">A preview of <em>Computational Social Science for Sustainability</em></h1>
+                                <div class="quarto-categories">
+                <div class="quarto-category">news</div>
+                <div class="quarto-category">review</div>
+              </div>
+                  </div>
   </div>
     
   
-  <div class="quarto-title-meta column-page-left">
+  <div class="quarto-title-meta">
 
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p>Matthew A. Turner </p>
+            </div>
+    </div>
       
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">November 20, 2024</p>
+      </div>
+    </div>
     
       
     </div>
     
   
-  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(3)</span></div><div class="category" data-category="homophily">homophily <span class="quarto-category-count">(1)</span></div><div class="category" data-category="news">news <span class="quarto-category-count">(2)</span></div><div class="category" data-category="review">review <span class="quarto-category-count">(3)</span></div><div class="category" data-category="social networks">social networks <span class="quarto-category-count">(1)</span></div></div></div>
+    
 <!-- main -->
-<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
+<main class="content quarto-banner-title-block" id="quarto-document-content">
 
 
 
 
 
-<p>Collective adaptation is the phenomenon where individuals in a population change or evolve in such a way that characteristics of the entire population change with the goal of increased <em>fitness</em>, which could mean increased survival, happiness, resources, or similar things that could be perceived as good <span class="citation" data-cites="GalesicEtAl2023">(<a href="#ref-GalesicEtAl2023" role="doc-biblioref">Galesic et al. 2023</a>)</span>. This definition is abstract by design, since collective action could occur in human, non-human animal, simple or single-cell organism, or virus populations. Changes are not always beneficial, however, such as if myopic increases in consumption in times of temporary surplus lead to overconsumption and long-term decline. Humans are unique in our ability to develop and evolve cultural adaptations that can facilitate adaptation much more rapidly than genetic evolution can. However, our capacity for culture, and the cognitive social learning capacities that enable culture, evolved genetically, including conversational turn-taking, joint attention, and predictive processing which can be used for social or asocial, trial-and-error learning. Humans are not the only ones adapting, as animals adapt their behavior to human collective behavior <span class="citation" data-cites="Sullivan2017">(<a href="#ref-Sullivan2017" role="doc-biblioref">Sullivan, Bird, and Perry 2017</a>)</span> and pathogen spread and evolution responds to social networks <span class="citation" data-cites="Best2011">(<a href="#ref-Best2011" role="doc-biblioref">Best et al. 2011</a>)</span> and social behavior <span class="citation" data-cites="Arthur2017 Arthur2021">(<a href="#ref-Arthur2017" role="doc-biblioref">Arthur et al. 2017</a>, <a href="#ref-Arthur2021" role="doc-biblioref">2021</a>)</span>.</p>
-<p>These blog posts explore what components, mechanisms and resulting processes underlie collective adaptation. These posts also explore how to advance the theory of collective adaptation through mechanistic modeling via agent-based or other approaches.</p>
-<section id="posts" class="level2">
-<h2 class="anchored" data-anchor-id="posts">Posts</h2>
-<div id="listing-main-listing" class="quarto-listing quarto-listing-container-default">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="news,review" data-listing-date-sort="1732089600000" data-listing-file-modified-sort="1732055667098" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="712">
-<div class="thumbnail">
-<p><a href="./posts/11-19-2024-computational-social-science-for-sustainability-intro/index.html" class="no-external"></a></p><a href="./posts/11-19-2024-computational-social-science-for-sustainability-intro/index.html" class="no-external">
-<p><img src="./posts/11-19-2024-computational-social-science-for-sustainability-intro/image.jpg" class="thumbnail-image"></p>
-</a><p><a href="./posts/11-19-2024-computational-social-science-for-sustainability-intro/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/11-19-2024-computational-social-science-for-sustainability-intro/index.html" class="no-external">A preview of <em>Computational Social Science for Sustainability</em></a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/11-19-2024-computational-social-science-for-sustainability-intro/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('news'); return false;">
-news
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('review'); return false;">
-review
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/11-19-2024-computational-social-science-for-sustainability-intro/index.html" class="no-external">Sustainable human thriving is threatened by anthropogenic climate change and ecosystem degredation caused by human behaviors. This further inflames political and social…<span class="citation" data-cites="Fodor1974 Feyerabend2010"></span><span class="citation" data-cites="Bak-Coleman2021"></span></a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/11-19-2024-computational-social-science-for-sustainability-intro/index.html" class="no-external">
-<div class="listing-date">
-Nov 20, 2024
-</div>
-<div class="listing-author">
-Matthew A. Turner
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="news,review" data-listing-date-sort="1723446000000" data-listing-file-modified-sort="1724955651747" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="431">
-<div class="thumbnail">
-<p><a href="./posts/8-12-2024-ruca-intro/index.html" class="no-external"></a></p><a href="./posts/8-12-2024-ruca-intro/index.html" class="no-external">
-<p><img src="./posts/8-12-2024-ruca-intro/image.jpg" class="thumbnail-image"></p>
-</a><p><a href="./posts/8-12-2024-ruca-intro/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/8-12-2024-ruca-intro/index.html" class="no-external">Why a rigorous understanding of collective adaptation?</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/8-12-2024-ruca-intro/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('news'); return false;">
-news
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('review'); return false;">
-review
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/8-12-2024-ruca-intro/index.html" class="no-external">Our world faces threats of climate change, ecosystem loss, pandemics, political and social instability, and more. We humans are challenged to respond with adaptations that…<span class="citation" data-cites="PisorLansingMagargal2023 Currie2024"></span><span class="citation" data-cites="GalesicEtAl2023"></span><span class="citation" data-cites="Bak-Coleman2021"></span></a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/8-12-2024-ruca-intro/index.html" class="no-external">
-<div class="listing-date">
-Aug 12, 2024
-</div>
-<div class="listing-author">
-Matthew A. Turner
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-categories="review,social networks,homophily" data-listing-date-sort="1723446000000" data-listing-file-modified-sort="1725392272221" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="751">
-<div class="thumbnail">
-<p><a href="./posts/8-12-2024-local-global-homophily/index.html" class="no-external"></a></p><a href="./posts/8-12-2024-local-global-homophily/index.html" class="no-external">
-<p><img src="./posts/8-12-2024-local-global-homophily/image.jpg" class="thumbnail-image"></p>
-</a><p><a href="./posts/8-12-2024-local-global-homophily/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/8-12-2024-local-global-homophily/index.html" class="no-external">Varieties of homophily and core-periphery in metapopulation theories of cultural evolution</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/8-12-2024-local-global-homophily/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('review'); return false;">
-review
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('social networks'); return false;">
-social networks
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('homophily'); return false;">
-homophily
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/8-12-2024-local-global-homophily/index.html" class="no-external">(BELOW PAR IS GOOD INTRO, BUT MOVE REFERENCES TO A NEW PARAGRAPH AFTER SHORT INTRO, EXPLAINING BRIEFLY <em>HOW</em> NETWORK STRUCTURE AFFECTS THESE FOUR EXAMPLES. GO SHORT WITH…</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/8-12-2024-local-global-homophily/index.html" class="no-external">
-<div class="listing-date">
-Aug 12, 2024
-</div>
-<div class="listing-author">
-Matthew A. Turner
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div>
+<section id="introduction" class="level2">
+<h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
+<p>Sustainable human thriving is threatened by anthropogenic climate change and ecosystem degredation caused by human behaviors. This further inflames political and social instability and increases the risk of and uncertainty around pandemics and other catastrophes. The social substrate from which these challenges emerge is the most complex system there is. To study social dynamics and sustainability, we must reevaluate, repurpose, or recombine existing scientific methodologies to synthesize new, practical social scientific theories <span class="citation" data-cites="Fodor1974 Feyerabend2010">(<a href="#ref-Fodor1974" role="doc-biblioref">Fodor 1974</a>; <a href="#ref-Feyerabend2010" role="doc-biblioref">Feyerabend 2010</a>)</span> that can help reduce risk and uncertainty to “steward[]…global collective behavior” towards more equitable, prosperous, and sustainable equilibria <span class="citation" data-cites="Bak-Coleman2021">(<a href="#ref-Bak-Coleman2021" role="doc-biblioref">Bak-Coleman et al. 2021</a>)</span>.</p>
+<p>In this blog post, I outline how <em>computational social science</em> in its current state provides a useful synthesis along these lines, along with a set of other basic ingredients which can be refined for specific problems in <em>sustainability</em> <span class="citation" data-cites="PisorLansingMagargal2023 Currie2024">(<a href="#ref-PisorLansingMagargal2023" role="doc-biblioref">Pisor, Lansing, and Magargal 2023</a>; <a href="#ref-Currie2024" role="doc-biblioref">Currie et al. 2024</a>)</span>. Here I begin laying out the structure and material for a new course and book I will begin teaching in January 2025 at the <a href="https://sustainability.stanford.edu/">Stanford Doerr School of Sustainability</a>, <em>Computational Social Science for Sustainability</em>.</p>
+<section id="measuring-behavior-adoption-and-opinions-or-beliefs" class="level3">
+<h3 class="anchored" data-anchor-id="measuring-behavior-adoption-and-opinions-or-beliefs">Measuring behavior adoption and opinions or beliefs</h3>
+</section>
+<section id="social-science-can-promote-sustainability-by-controlling-complexity" class="level3">
+<h3 class="anchored" data-anchor-id="social-science-can-promote-sustainability-by-controlling-complexity">Social science can promote sustainability by controlling complexity</h3>
+</section>
+<section id="computational-modeling-adds-rigor-to-social-science-theories" class="level3">
+<h3 class="anchored" data-anchor-id="computational-modeling-adds-rigor-to-social-science-theories">Computational modeling adds rigor to social science theories</h3>
+</section>
+<section id="model-development-as-storytelling" class="level3">
+<h3 class="anchored" data-anchor-id="model-development-as-storytelling">Model development as storytelling</h3>
+</section>
+</section>
+<section id="computational-social-science-as-the-search-for-useful-model-representations" class="level2">
+<h2 class="anchored" data-anchor-id="computational-social-science-as-the-search-for-useful-model-representations">Computational social science as the search for useful model representations</h2>
+<section id="science-as-storytelling" class="level3">
+<h3 class="anchored" data-anchor-id="science-as-storytelling">Science as storytelling</h3>
+</section>
+<section id="types-and-uses-of-social-science-models" class="level3">
+<h3 class="anchored" data-anchor-id="types-and-uses-of-social-science-models">Types and uses of social science models</h3>
+<section id="deterministic-versus-generative-models" class="level4">
+<h4 class="anchored" data-anchor-id="deterministic-versus-generative-models">Deterministic versus generative models</h4>
+<p>MCMC generative model for fitting models to data; King Markov code example.</p>
+</section>
+<section id="models-classified-by-choice-of-representation" class="level4">
+<h4 class="anchored" data-anchor-id="models-classified-by-choice-of-representation">Models classified by choice of representation</h4>
+</section>
+</section>
+<section id="cultural-evolution-knowledge-as-traits" class="level3">
+<h3 class="anchored" data-anchor-id="cultural-evolution-knowledge-as-traits">Cultural evolution: <em>knowledge</em> as <em>traits</em></h3>
+<p>Biases</p>
+</section>
+<section id="opinion-dynamics-discourse-as-a-force" class="level3">
+<h3 class="anchored" data-anchor-id="opinion-dynamics-discourse-as-a-force">Opinion dynamics: <em>discourse</em> as a <em>force</em></h3>
+<ul>
+<li>Start with Asch and Degroot on the force of consensus</li>
+<li>Biased assimilation and avoidance of cognitive dissonance leads to ignorance of differing opinions</li>
+<li>Repulsion pushes</li>
+</ul>
+<section id="data-fitting-exercise" class="level4">
+<h4 class="anchored" data-anchor-id="data-fitting-exercise">Data fitting exercise:</h4>
+</section>
+</section>
+<section id="social-networks-and-groups-people-as-nodes" class="level3">
+<h3 class="anchored" data-anchor-id="social-networks-and-groups-people-as-nodes">Social networks and groups: <em>people</em> as <em>nodes</em></h3>
+<section id="how-social-networks-affect-cultural-evolution-and-opinion-dynamics" class="level4">
+<h4 class="anchored" data-anchor-id="how-social-networks-affect-cultural-evolution-and-opinion-dynamics">How social networks affect cultural evolution and opinion dynamics</h4>
+<section id="exercise-axelrods-1997-model-of-cultural-differentiation" class="level5">
+<h5 class="anchored" data-anchor-id="exercise-axelrods-1997-model-of-cultural-differentiation">Exercise: Axelrod’s 1997 model of cultural differentiation</h5>
+</section>
+<section id="exercise-medicis" class="level5">
+<h5 class="anchored" data-anchor-id="exercise-medicis">Exercise: Medicis</h5>
+</section>
+<section id="exercise-uc-merced-faculty" class="level5">
+<h5 class="anchored" data-anchor-id="exercise-uc-merced-faculty">Exercise: UC Merced Faculty</h5>
+</section>
+</section>
+<section id="social-networks-with-groups" class="level4">
+<h4 class="anchored" data-anchor-id="social-networks-with-groups">Social networks with groups</h4>
+<section id="exercise-homphily-defined-social-networks-fit-by-stochastic-block-model" class="level5">
+<h5 class="anchored" data-anchor-id="exercise-homphily-defined-social-networks-fit-by-stochastic-block-model">Exercise: Homphily-defined social networks fit by stochastic block model</h5>
+</section>
+</section>
+</section>
+<section id="linguistics-concepts-defined-by-co-occurrence-patterns" class="level3">
+<h3 class="anchored" data-anchor-id="linguistics-concepts-defined-by-co-occurrence-patterns">Linguistics: <em>concepts</em> defined by <em>co-occurrence patterns</em></h3>
+<section id="data-fitting-exmaple" class="level4">
+<h4 class="anchored" data-anchor-id="data-fitting-exmaple">Data fitting exmaple</h4>
+</section>
+</section>
+</section>
+<section id="synthesisor-at-least-an-acceptance-of-disunity" class="level2">
+<h2 class="anchored" data-anchor-id="synthesisor-at-least-an-acceptance-of-disunity">Synthesis–or at least an acceptance of disunity</h2>
+</section>
+<section id="review-and-a-look-ahead" class="level2">
+<h2 class="anchored" data-anchor-id="review-and-a-look-ahead">Review and a look ahead</h2>
+</section>
+<section id="references" class="level2">
 
+<!-- Collective
+adaptation is an emergent phenomena composed of constituent sub-processes
+occurring across several time, population, and geographic/spatial scales: from
+milliseconds to millenia; from an individual to dyads to the global
+metapopulation; and from micrometers-long neurons to global-scale communication
+networks [@GalesicEtAl2023]. If we can develop a rigorous understanding of how
+collective adaptation works, we may be better able to optimize "stewardship of
+global collective behavior" [@Bak-Coleman2021]. Modern stewardship of collective
+behavior at all population scales needs the scientific, rigorous understanding
+olossf collective adaptation we contribute to in the RUCA project.
+
+![Sketch of collective human and non-human collective adaptation. Novel technologies and threats both emerge from human cultural evolution. Pandemic-causing pathogens, biodiversity, and human culture all co-evolve on commensurate time scales.](image.jpg){width="50%"}
+
+Non-human populations, from viruses to whales, also co-adapt and co-evolve. Pathogen evolution is important cases due to the risk of disease outbreaks when pathogens spill over from non-human animals (e.g., birds, bats, pigs) to humans. Spillovers are increasingly common in the new epoch of rapid global change [@Baker2022]. In spillovers, pathogens are initially poorly adapted to their new human hosts, but can rescue themselves through evolution [@Visher2021]. Pathogen evolution is sensitive to metapopulation group structure [@Best2011], and therefore pathogen evolution may be sensitive to changes in human group size, asymmetric homophily levels, out-group aversion, and rising extremism and polarization. If we could predict which groups are most likely to get infected, and which individuals are best to target for intervention towards pandemic preparedness behaviors (such as getting vaccinated), we could more efficiently use available resources.
+
+Beyond applications to critical problems, collective adaptation theory can be used to better understand culture in other species, for example whales who collectively generate, through transmission and modulation, a cumulative cultural repertoire of whale songs [@Garland2022].
+
+## The RUCA approach
+
+Rigor takes time, following a step-wise approach to understand which parts of a
+system interact, and how, to cause the emergence of higher-order processes
+constituted by those interactions. This is known as *mechanistic modeling*
+[@Turner2022]. Mechanistic models are useful for emergent phenomena such as
+collective adaptation because they force experimenters to explicitly state what
+are the component parts of their system of interest [@Kauffman1970] and how do
+they interact to produce some process composed of numerous such interactions
+[@Craver2006]. My work develops mechanistic models that synthesize, connect, and
+clarify diverse adaptive and social processes and understand the sometimes
+unexpected consequences of the interaction of these processes and the
+environment [@Turner2018; @Turner2020; @Turner2023a; @Turner2023]. -->
 
 
 
 </section>
 
 <div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
-<div id="ref-Arthur2017" class="csl-entry" role="listitem">
-Arthur, Ronan F., Emily S. Gurley, Henrik Salje, Laura S. P. Bloomfield, and James H. Jones. 2017. <span>“<span class="nocase">Contact structure, mobility, environmental impact and behaviour: The importance of social forces to infectious disease dynamics and disease ecology</span>.”</span> <em>Philosophical Transactions of the Royal Society B: Biological Sciences</em> 372 (1719). <a href="https://doi.org/10.1098/rstb.2016.0454">https://doi.org/10.1098/rstb.2016.0454</a>.
+<div id="ref-Bak-Coleman2021" class="csl-entry" role="listitem">
+Bak-Coleman, Joseph B., Mark Alfano, Wolfram Barfuss, Carl T. Bergstrom, Miguel A. Centeno, Iain D. Couzin, Jonathan F. Donges, et al. 2021. <span>“<span class="nocase">Stewardship of global collective behavior</span>.”</span> <em>Proceedings of the National Academy of Sciences of the United States of America</em> 118 (27): 1–10. <a href="https://doi.org/10.1073/pnas.2025764118">https://doi.org/10.1073/pnas.2025764118</a>.
 </div>
-<div id="ref-Arthur2021" class="csl-entry" role="listitem">
-Arthur, Ronan F., James H. Jones, Matthew H. Bonds, Yoav Ram, and Marcus W. Feldman. 2021. <span>“<span class="nocase">Adaptive social contact rates induce complex dynamics during epidemics</span>.”</span> <em>PLoS Computational Biology</em> 17 (2): 1–17. <a href="https://doi.org/10.1371/JOURNAL.PCBI.1008639">https://doi.org/10.1371/JOURNAL.PCBI.1008639</a>.
+<div id="ref-Currie2024" class="csl-entry" role="listitem">
+Currie, Thomas E., Monique Borgerhoff Mulder, Laurel Fogarty, Maja Schlüter, Carl Folke, L. Jamila Haider, Guido Caniglia, et al. 2024. <span>“<span class="nocase">Integrating evolutionary theory and social-ecological systems research to address the sustainability challenges of the Anthropocene</span>.”</span> <em>Philosophical Transactions of the Royal Society B: Biological Sciences</em> 379 (1893). <a href="https://doi.org/10.1098/rstb.2022.0262">https://doi.org/10.1098/rstb.2022.0262</a>.
 </div>
-<div id="ref-Best2011" class="csl-entry" role="listitem">
-Best, Alex, Steve Webb, Andy White, and Mike Boots. 2011. <span>“<span class="nocase">Host resistance and coevolution in spatially structured populations</span>.”</span> <em>Proceedings of the Royal Society B: Biological Sciences</em> 278 (1715): 2216–22. <a href="https://doi.org/10.1098/rspb.2010.1978">https://doi.org/10.1098/rspb.2010.1978</a>.
+<div id="ref-Feyerabend2010" class="csl-entry" role="listitem">
+Feyerabend, Paul. 2010. <em><span>Against Method</span></em>. 4th ed. London: Verso.
 </div>
-<div id="ref-GalesicEtAl2023" class="csl-entry" role="listitem">
-Galesic, Mirta, Daniel Barkoczi, Andrew M. Berdhal, Dora Biro, Giuseppe Carbone, Ilaria Giannoccaro, Robert L. Goldstone, et al. 2023. <span>“<span class="nocase">Beyond collective intelligence : Collective adaptation</span>.”</span> <em>Journal of the Royal Society Interface</em> 20 (20220736). <a href="https://doi.org/10.1098/rsif.2022.0736">https://doi.org/10.1098/rsif.2022.0736</a>.
+<div id="ref-Fodor1974" class="csl-entry" role="listitem">
+Fodor, J. A. 1974. <span>“<span class="nocase">Special sciences (or: The disunity of science as a working hypothesis)</span>.”</span> <em>Synthese</em> 28 (2): 97–115. <a href="https://doi.org/10.1007/BF00485230">https://doi.org/10.1007/BF00485230</a>.
 </div>
-<div id="ref-Sullivan2017" class="csl-entry" role="listitem">
-Sullivan, Alexis P., Douglas W. Bird, and George H. Perry. 2017. <span>“<span class="nocase">Human behaviour as a long-term ecological driver of non-human evolution</span>.”</span> <em>Nature Ecology and Evolution</em> 1 (3): 1–11. <a href="https://doi.org/10.1038/s41559-016-0065">https://doi.org/10.1038/s41559-016-0065</a>.
+<div id="ref-PisorLansingMagargal2023" class="csl-entry" role="listitem">
+Pisor, Anne, J. Stephen Lansing, and Kate Magargal. 2023. <span>“<span class="nocase">Climate change adaptation needs a science of culture</span>.”</span> <em>Philosophical Transactions of the Royal Society B: Biological Sciences</em> 378 (1889). <a href="https://doi.org/10.1098/rstb.2022.0390">https://doi.org/10.1098/rstb.2022.0390</a>.
 </div>
 </div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -784,6 +729,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
 });
+</script>
+<script src="https://utteranc.es/client.js" repo="mt-digital/mt.digital-blog-comments" issue-term="pathname" theme="github-light" crossorigin="anonymous" async="">
 </script>
 </div> <!-- /content -->
 

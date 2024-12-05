@@ -4,6 +4,7 @@ about:
   template: solana
   image-shape: round
 bibliography: /Users/mt/workspace/Writing/library.bib
+server: shiny
 ---
 
 # Matthew Adam Turner, PhD {#name}
