@@ -6,7 +6,7 @@ about:
 bibliography: /Users/mt/workspace/Writing/library.bib
 ---
 
-# Matthew Adam Turner, PhD {#name}
+# Matthew A. Turner, PhD {#name}
 
 ## Lecturer and Director of the Rigorous Understanding of Collective Adaptation (RUCA) Project {#title}
 
@@ -15,8 +15,9 @@ bibliography: /Users/mt/workspace/Writing/library.bib
 I am a Lecturer developing and teaching undergraduate and graduate
 courses in Computational Social Science for Sustainability and Agent-based
 Modeling in the Environmental Behavioral Sciences department in the Stanford
-Doerr School of Sustainability. Before November, 2024, I was a [Pandemic Preparedness Postdoctoral
-Scholar](https://pandemichub.stanford.edu/fellows/).
+Doerr School of Sustainability. Before November, 2024, I was an inaugural 
+[Pandemic Preparedness Hub Postdoctoral
+Fellow](https://pandemichub.stanford.edu/fellows/).
 <!-- I direct the Rigorous Understanding of Collective Adaptation (RUCA) project, explained below. -->
 
 ### Pursuing a rigorous understanding of collective adaptation
