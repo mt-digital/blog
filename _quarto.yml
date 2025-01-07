@@ -2,9 +2,10 @@ project:
   type: website
 
 website:
-  title: "MA Turner, PhD"
+  title: "MA Turner, Ph.D."
   favicon: favicon.jpg
   navbar:
+
     left:
       - text: "CV"
         href: static/turner_cv.pdf
@@ -15,6 +16,7 @@ website:
       - icon: linkedin
         text: LinkedIn
         href: https://linkedin.com/in/maturner01
+
     right:
       - text: "RUCA Blog"
         file: blog.qmd
