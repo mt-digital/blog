@@ -1,0 +1,162 @@
+---
+title: "Overview, structure, and goals for new course _Computational Social Science for
+Sustainability_"
+
+author: "Matthew A. Turner"
+date: "2024-12-20"
+categories: [review]
+image: "image.png"
+reading-time: true
+word-count: true
+bibliography: /Users/mt/workspace/Writing/library.bib
+---
+
+# Overview
+
+On November 1 I began officially as a Lecturer in the Stanford Doerr School of
+Sustainability at Stanford University. I am developing two courses. The first,
+starting January 1 next year, is _Computational Social Science for Sustainability_. 
+The second is _Agent-based modeling_. So far I have a [syllabus for Computational
+Social Science](https://mt.digital/teaching/EBS_X81/). I have plans for
+programming problem sets, lecture material, and I'm excited to see what students
+pursue for their cumulative midterm and final projects.
+
+I was hired to create a course that teaches the theory and techniques of
+computational social science to support sustainability with minimum 
+technical and theoretical overhead. That means
+strategic choices of subject matter, and how it should be presented. Personally I think it is fun and
+valuable to remix and resample standard ways of introducing material. In this
+spirit, social
+interactions will be introduced as occurring in the substrate of social networks. 
+From the first problem set, students will learn to construct, manipulate, and
+visualize social networks. We will
+spend the ten-week course studying complementary approaches to developing mechanistic
+models of emergent social phenomena from repeated social
+interactions over time. Emergent social phenomena include, for example, viral
+adoption of sustainable behaviors, political polarization, and sustainable groundwater
+management and irrigation, or management of other common-pool resources. 
+
+We identify and model three types 
+of social interaction: social learning, social influence, and cooperation.
+Social interactions of interest may include one or more of these types of
+interaction. See the [course syllabus](https://mt.digital/teaching/EBS_X81/)
+for more details on specific theoretical components of social science I plan to 
+use to model social learning, social influence, and cooperation. Broadly, social
+learning is informed by cultural evolutionary studies, social influence is 
+framed in terms of opinion dynamics studies, and cooperation is based on
+evolutionary game theory as its starting point. Social phenomena and constituent
+psychological and cognitive processes 
+
+# The course: rigorous, computer-literate social science for sustainability
+
+Sustainability, and similar challenges like pandemic preparedness and
+prevention, require behavioral science to promote better
+outcomes. This need provides a selection pressure towards a trim presentation of
+social science essentials. Computation is essential for social science because
+we can build simulated groups and societies to perform computational experiments
+that would be difficult or impossible to perform in the real world. Nonetheless,
+these simulations can demonstrate fundamental truths in model systems with clear
+implications for the real world. For example, we can understand
+exactly how well information percolates through different model social networks,
+so that we may predict how many people must learn about some sustainable
+behavior in order for the behavior to go viral, i.e., spread widely to all
+members of a society. 
+
+Social science is one branch of behavioral science, complemented and
+informed by psychological and cognitive sciences and linguistics. These fields,
+in various ways, exist to understand how language works and how 
+individuals are influenced differently by
+different communication strategies. The goal of social science here is to 
+understand how repeated social interactions aggregate into emergent
+society-scale outcomes. For example, the emergent outcome of how many
+farmers adopt more carbon-friendly
+agricultural practices depends on a series of interactions with others such as
+learning from crop advisers and hearing the opinions of fellow farmers.
+Computational social science provides theoretical and modeling tools for 
+representing repeated social interactions structured by social networks. 
+Computational social science adds to its knowledge base with new 
+analyses of social simulations based on empirically-motivated
+assumptions about social interactions work, structured by social networks and 
+subject to uncertainty and stochasticity. Computational social science also
+produces new knowledge through statistical analysis of empirical data made 
+rigorous by thoroughly accounting for sources of variance. 
+In summary, this course will enable students to create their own analyses of
+societal change to contribute to a scientific understanding of how to 
+scale up adoption of sustainable practices.
+
+Many students are attracted to sustainability because
+they care about the planet and its inhabitants. We would do well to welcome and
+expect sustainability students to have a spectrum of programming experience and
+interest. To this end, I have begun developing an R library,
+[`socmod`](https://mt-digital.github.com) that will pull together
+essential computational social science tools, models, and data. 
+The skills students will gain in R are highly transferable. R use is widespread,
+I belive thanks to the stylish leadership of Hadley Wickham and associates.
+We will use R Shiny
+and `tidyverse` functionality including `dplyr` and `ggplot` for analyzing and
+visualizing model outcomes. I plan to follow the approach of
+[`Agents.jl`](https://juliadynamics.github.io/Agents.jl/stable/) in the
+functional approach to defining agent-agent interactions and model dynamics for
+each step, which are then scheduled and run by library code. 
+
+This approach to modeling will require the combination of several tools. First,
+object-oriented programming is most sensible for
+agent-based models, which will be a primary modeling method. 
+Oftentimes a model, agent-based or otherwise, will
+need to be run several times over several parameter settings. This quite
+naturally suggests that Models, too, should be objects. Because R by default assigns
+by value instead of by reference, and because R is traditionally functional and 
+declarative more than procedural, explicit object-oriented coding is relatively 
+rare. For object-oriented programming I have chosen the [R6 package](https://r6.r-lib.org/), based
+on advice from Hadley Wickham's book, [Advanced
+R](https://adv-r.hadley.nz/index.html). In Chapter 14 on R6, Wickham notes
+that R6 "uses the encapsulated OOP paradigm, which means that" you call methods
+using the infix `$` operator, calling "them like `object$method()`".
+
+It is possible to maintain information about simulated individuals in tabular
+format, as @Acerbi2022 did wonderfully in their R-based approach to agent-based
+modeling (they call it individual-based, but they are identical). However a
+more declarative, object-oriented approach is easier for beginners, as 
+testified to by the choice in @SmaldinoBook2023 to use NetLogo. NetLogo is
+highly idiosyncratic, used almost exclusively for pedagogical purposes, and 
+so may have relatively little transferrable value in terms of programming
+experience. However, there is nothing currently available that makes agent-based
+computational social science modeling more accessible. If the software library
+associated with this course succeeds, it may be accessible, help students learn
+transferrable skills in R and object-oriented programming, and grow into a
+powerful research tool for computational social science in R.
+
+In making any sort of publicly-available library it's necessary to make it
+easy to install and especially for students. It would be a waste of time to 
+rush and accumulate technical debt like poorly-documented code or making code
+excessively difficult to install. Therefore, I am pursuing a document-driven
+development approach, where one of the documents are the problem sets
+themselves. I am using [pkgdown](https://pkgdown.r-lib.org/) for library
+documentation, and [devtools](https://devtools.r-lib.org/) for package
+development and distribution.
+
+# Conclusion
+
+While discussing the course _Computational Social Science for Sustainability_ 
+with the practicum and curriculum manager for a
+master's program in the Doerr School of Sustainability, she asked me if the
+course
+should be categorized as a science course or an arts course. 
+I briskly replied, "Science."
+I understand and deeply sympathize with the question, 
+even though to me the answer is obvious. 
+The confusion may come from the fact that when grade school students study 
+"social science" in the United States, it is really just "history",
+maybe with some political science and civics. Furthermore, I am aware that
+some sociologists and anthropologists, for example, are uncomfortable with a "science" of
+human behavior because of historical connections with colonialism or colonial
+powers, and possibly due to implications that humans lack free will. It seems
+my job is to make it obvious to my audience that _Computational social
+science for sustainability_ is unmistakeably science just like physics, 
+chemistry, or biology. I
+believe this science can help steward collective behavior [@Bak-Coleman2021]
+for a more sustainable world, which to me seems humanitarian enough to overcome
+potential concerns.
+
+More updates will follow as I create problem sets and continue writing course
+notes and build the `socmod` R library to accelerate student learning.
